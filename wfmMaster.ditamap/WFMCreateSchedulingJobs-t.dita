@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="x3b_v1x_l2b"><title>Create Scheduling Jobs</title><shortdesc>The job scheduler enables administrators to build a job to create daily scheduling notifications for employees. Jobs can run on scheduled days and times or on demand.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>The job scheduler listens for messages coming from Time Off and Allowances about relevant updates to data.</context><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Scheduling</uicontrol><uicontrol>Settings</uicontrol><uicontrol>Job Scheduler</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMSchedulingJobScheduler.png"><alt>Job Scheduler</alt></image>
+                </info></step><step><cmd>Enter a name and description.</cmd></step><step><cmd>Select the job type.</cmd></step><step><cmd>Select <uicontrol>Yes</uicontrol> to enable the schedule.</cmd></step><step><cmd>Select the schedule type. </cmd></step><step><cmd>If applicable, select the days and parameters. For example, a daily notification job can have a schedule type of "Exact" where the applicable days are selected.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="awp_nf5_w2b"><title>August 16, 2018</title><shortdesc>Here are the August 16 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+        </section><p>Several enhancements were made for this release:</p><p>Two enhancements were made to shift premiums: Day Before/Day After and Flat Rate. Premium hours are now calculated based on the day the hours fall. Also, a flat amount of premium can be applied if conditions are met.</p><p>Translations in the Time feature have been extended to include data entry fields requiring a name and description, in addition to all the static, delivered fields. This enhancement also applies to the Time pages in the New Hire wizard and in the UltiPro mobile app.</p><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+        </section><p>When a manager assigns a policy group to an employee (My Team > select employee > Time Off Assignments), the default policy no longer appears. When employees and managers view time off balances via the dashboards, the first policy listed is the first one from the ordered policies in the policy group. In addition, the Default Policy column is no longer present in the CSV import (Settings > Data Import).</p><section>
+            <title>Scheduling Enhancements</title>
+        </section><p>Several enhancements were made for this release:</p><p>When creating or editing a team schedule, managers can now enable target hours for both budget and coverage (Settings > Scheduling Teams). The Coverage section was renamed Budget and Coverage. This section enables managers to specify the number of employees or total number of hours as either a budget or a coverage requirement. Scheduling generates an hourly cost of the current schedule as a threshold if the target hours are set as a budget. When the target is chosen as coverage, it requires the scheduler to use the total number of hours or the total number of employees as a demand requirement.</p><p>Translations in the Scheduling feature have been extended to include data entry fields requiring a name and description, in addition to all the static, delivered fields. This enhancement also applies to the Scheduling pages in the New Hire wizard and in the UltiPro mobile app.</p><section>
+            <title>Reporting Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+        </section><p>Recurring reports can be scheduled on a monthly or quarterly basis (Report Scheduler > Edit Job). The schedule enables a user to select if the report should be scheduled to run for the beginning or end of a month or quarter. This enhancement helps to save time since information does not need to be entered again (for example, the Liability report).</p><section>
+            <title>What's Updated in Time Off and Allowances (August 16, 2018)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+        </section><p>For pending balances, the date includes the month and the ability to choose a specific date within the month. When creating or editing a time off policy (Settings > Time Off Policy), the Accrual Frequency field options are now One Time, Recurring Yearly, and Recurring Multiple.</p><p>When creating manual transactions, up to six decimal places can now be entered.</p><section>
+            <title>What's Updated in Reporting (August 16, 2018)</title>
+            <p>The following is another noteworthy update to Workforce Management:</p>
+            <p>The Report Data is Invalid error message no longer appears when running the Transaction and Balances report.</p>
+        </section></conbody></concept>

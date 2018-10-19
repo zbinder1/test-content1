@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="bkd_42g_bfb"><title>October 19, 2017</title><shortdesc>Here are the October 5, 12, and 19 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>A maximum threshold can be added to the Call Back rule. Multiple call back segments can be treated as individual segments or total segments together. The Call Back time code was added to the default time code list.</p>
+            <p>Employees and managers can select the new Call Back In and Call Back Out buttons on the web clock to accurately record time and make adjustments.</p>
+            <p>Time information can be verified before being exported to payroll (Settings > Timesheet configuration group > Payroll Export). The information is based on pay groups or a subset of filtered pay groups for export. The export is by either a range of dates or by pay period duration.</p>
+            <p>Retro parameters are available on the Edit Pay Group page for those users who have permission to create or edit a pay group. The parameters identify when and if retro transactions can be made on a timesheet. If employees or managers with retro edit permissions try to edit a timesheet and the date falls outside the retro adjustment period, they cannot edit the selected day and a message appears. Managers can make retroactive time adjustments to an employee’s duration or hourly timesheet only during a specific period of time. Only those days that are available for retro edit, having a status of Exported, can be edited. When a retro calculation is exported for the current pay period, the timesheet remains in Approved status and the letter “R” appears on the day the edit was made. Retro calculations can be viewed to see the new calculations after the retroactive edits were made on the timesheet.</p>
+            <p>A new Payroll Admin permission enables those users with the assigned permission to edit locked timesheet days. The PAYROLL_ADMIN_RETRO_PERIOD was renamed ADMIN_TIMESHEET_UNAPPROVE. Also, the PAYROLL_ADMIN_RETRO_PERIOD is now part of the administrator role instead of the manager role.</p>
+            <p>When an ambiguous time punch is made, a new daylight saving time (DST) column appears and the employee must select either Before Time Change or After Time Change. If time punches on a timesheet span a DST change, a DST indicator appears in the calculated hours section. If any employees reside in areas that do not observe DST, their clocks and timesheets do not reflect these DST changes.</p>
+            <p>Administrators can configure multiple summaries so employees clearly see how they are getting paid. The Add Summary Bucket link adds a new summary bucket that the administrator can add pay types to. If “X” is selected next to a summary bucket, the summary is removed and its pay types are placed back into the available list. When the View Summary button is selected on the Timesheets page, the pay types that contributed to the summary are listed along with the amount per pay type.</p>
+            <p>By default, the My Team page displays only active employees. The following filters are on by default and in this order: Team, Employee Name, Employee Number, Employee Status (Active, On Leave, Terminated), Pay Group, Org Levels, Location, and Job.</p>
+            <p>When configuring timesheets, a new option allows a date to be entered next to a clock in or clock out entry to account for editing shifts that cross midnight. Administrators can configure whether dates are used for the hourly timesheet entries. Managers and employees can choose which summaries to view from the timesheet.</p>
+            <p>Time clock managers can now see calculated values on timesheets to verify that inputs and outputs are correct. The calculated values display as the main information in place of the punches, but an Edit icon displays the punches.</p>
+            <p>When time is exported, the pay groups can be filtered by labor metrics prior to locking or exporting. Only the filtered data is exported.</p>
+            <p>The holiday rule can be configured to enforce probation eligibility. The number of days since hire was added to the holiday rule as an eligibility requirement.</p>
+            <p>On the Errors &amp; Exception page of the UltiPro mobile app, managers can resolve the unused meal break issue on the timesheet by waiving or accepting meal penalties. Also, managers can apply meal waivers on both the hourly and duration timesheets for themselves or for their team employees.</p>
+        </section><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>When a partial day time off request is made and it spans a daylight saving time (DST) change, a DST indicator appears in the calculated hours section. If an ambiguous end time is entered because of the DST change, the employee may select one of two options from a drop-down list: Before Time Change or After Time Change.</p>
+            <p>Administrators can now configure pro-rating policies for employees who start mid-year through the first year, for annual accruals, or mid-month, for monthly accruals. This pro-rating calculation ensures employees receive time off according to company policy. The transaction date is the employee’s seniority date. The Create Policy page contains new fields for this enhancement. After Yearly or Monthly is selected in the Accrual Frequency field, the administrator can specify whether to pro rate the first year or month. Additional fields become available based on this selection, and rows can be added or deleted.</p>
+            <p>Administrators can now configure the minimum balance at the entitlement tier level. The Minimum Balance field is available when configuring a time off policy. When employees request time off, validation is performed against the tiered minimum balance.</p>
+            <p>In the UltiPro mobile app, managers can submit an employee time off request and submit a timesheet (hourly or duration) on behalf of an employee. A time off request is based on either a full day absence or a partial day absence. Employees are notified via the mobile app when a request is approved or rejected.</p>
+            <p>When a time off policy is configured, carryover amounts per service tier are now allowed. The carryover value supports decimals instead of whole numbers. Page 2 of the time off policy was renamed Termination.</p>
+        </section><section>
+            <title>Scheduling Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>When assigning shifts on the Team Schedule page, a new Seniority option (least to greatest and greatest to least) is available when selecting search options to choose employees. Managers can choose one of the following options or a combination of them: Activity, Availability, and Seniority.</p>
+            <p>The Team Schedule page has an improved load time.</p>
+            <p>The filters used in Time Off and Allowances are now available in the employee list.</p>
+            <p>Managers can filter employees per labor metric. Only those labor metrics used by a company are displayed. Managers can also filter scheduling teams by labor metrics.</p>
+            <p>On the Team Schedule page, drag-and-drop capability is available to and from unassigned rows.</p>
+        </section><section>
+            <title>What's Updated in Time (October 19, 2017)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>Currency and numeric time code retro adjustments are part of the payroll export, as expected.</p>
+            <p>If there are multiple pages of team timesheets, the sort options now apply to all pages rather than just the first page.</p>
+            <p>Punches that come in from the queue or from the web clock can no longer be processed on approved timesheets. The punches are stored in the databases as “unprocessed.”</p>
+            <p>Timesheet Type is now part of Timesheet Group configuration.</p>
+            <p>Employee punches recorded via the TouchBase Web Clock are applied to the correct date, as expected.</p>
+            <p>Time off requests can be applied to timesheets that are in either the Exported/Retro_Not_Submitted state or Retro_Submitted/Retro_Approved state.</p>
+            <p>After selecting the Exception icon from an employee timesheet, the issue resolution buttons (for example, Ignore, Edit Absence, or Pay) correctly appear.</p>
+        </section><section>
+            <title>What's Updated in Time Off and Allowances (October 19, 2017)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>When a policy group is unassigned and reassigned, all transactions are created properly. Also, if a time off policy name exceeds 22 characters, the policy can still be copied. When requesting time off through the UltiPro mobile app, the requested time off can have a start and end date other than today. In the mobile app, time off request details are updated immediately after a request is edited.</p>
+            <p>Carry over and total accrual balances are now correct when the carry over expires after 12 months.</p>
+            <p>In the UltiPro mobile app, partial day start and end times can be entered for a time off request.</p>
+            <p>Organization levels that are inactive in UltiPro no longer remain active in Workforce Management.</p>
+        </section><section>
+            <title>What's Updated in Reporting (October 19, 2017)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>When a timesheet report is generated for either punches or hourly entries, the details are now sorted in order by start time.</p>
+            <p>Timesheet messages appear in timesheet reports, as expected.</p>
+            <p>The Time Summary report correctly displays an employee’s unpaid hours.</p>
+            <p>The Duration column on the Time Summary Report now shows the correct value.</p>
+            <p>When a timesheet report is run and it is empty, the header and basic information of the report are still visible.</p>
+            <p>In the Time and Labor report, groupings that are the same (for example, the same date) now collapse.</p>
+            <p>In the Time and Labor report, when the date range is switched from month to custom, only the custom drop-down options appear, as expected.</p>
+            <p>When the Work Flow Audit Report is run, it is grouped correctly by the parameter selected (for example, Status or Workflow Type).</p>
+            <p>The premium and regular hours are consistent with the hours in Time and Reporting, even for an unscheduled day.</p>
+            <p>A deadlock error no longer occurs when running reports.</p>
+            <p>The date format in Reporting can be configured. The date format is the same format used in Time and Scheduling.</p>
+            <p>If a manager has access to only part of a month and runs a report for the month, the report no longer shows data for the entire month. The report only shows data for the applicable days.</p>
+            <p>To prevent any errors, a SQL script now checks Time Off and Allowances policy records for empty name fields</p>
+        </section></conbody></concept>

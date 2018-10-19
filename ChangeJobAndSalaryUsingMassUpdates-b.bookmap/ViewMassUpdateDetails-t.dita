@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i37234"><title>View Mass Update Details</title><shortdesc>The Add Mass Updates page lists all updates submitted, including details such as the type of updates, status, name of individual who submitted the update, and the effective date.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2015-03-25T20:35:37"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="feature" content="Human Resources"/><othermeta name="feature" content="Help"/><othermeta name="helpProductKey3" content="EEADM"/><othermeta name="helpProductPageName1" content="MassUpdateDetail.aspx"/><othermeta name="helpRole2" content="empl-admin"/></metadata></prolog><taskbody><context>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the <uicontrol>Add Mass Updates </uicontrol>page, select the <uicontrol>Date Created</uicontrol> link to view all details.</cmd></step><step><cmd>Review the transactions with a status of <uicontrol>Completed with Errors </uicontrol>or <uicontrol>Changes Failed.</uicontrol>
+            </cmd><info>
+               <ul><li><uicontrol>Completed with Errors</uicontrol> status indicates that some record updates passed, and some records failed. </li><li><uicontrol>Changes Failed</uicontrol> status indicates all record updates failed.</li><li>
+                     <uicontrol>Completed </uicontrol> status indicates all record updates passed.</li><li>
+                     <uicontrol>Contingent </uicontrol> status indicates a future dated transaction is pending.</li></ul>
+            </info></step><step><cmd>Apply updates to individual employee records for employees that failed to update.</cmd></step></steps></taskbody></task>

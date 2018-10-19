@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55709"><title>Print Pay Documents</title><shortdesc>Print employee pay checks for each pay group. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T22:10:22"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <p>The Pay Documents are available from the File Transfers page (Menu &gt; Administration &gt; Reporting &gt; File Transfers). The Check Positive Pay file is available when printing live checks.</p>
+         <p>Confirm receipt and totals with your bank.</p>
+         <note type="important">
+            <p>Once the checks have been printed, the payroll cannot be modified.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Payroll Processing</uicontrol><uicontrol>Payroll Gateway</uicontrol><uicontrol>select a pay group</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the Payroll Overview page, select Print. All calculated transactions are printed, and checks are generated. If a third party prints the checks, the check export files are generated.</cmd></step><step><cmd>From the File Transfers page, review your Check Positive Pay file.</cmd></step><step><cmd>Validate that your bank file totals balance to your Pre-Check Summary Liability Listing (specific to bank required process). </cmd></step><step><cmd>Verify the check totals using the Pay Check Register standard report.</cmd></step></steps></taskbody></task>

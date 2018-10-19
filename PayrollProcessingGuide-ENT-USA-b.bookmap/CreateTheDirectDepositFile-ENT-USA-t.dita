@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i37540"><?oxy_comment_start author="zak_binder@ultimatesoftware.com" timestamp="20180130T090716-0500" comment="ENT only topic used in MM only book (PayrollProcessingGuide-MM-b.bookmap)"?><title>Create the Direct Deposit File </title><?oxy_comment_end?><shortdesc>Create a direct deposit file for each pay group. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2015-04-21T15:25:06"/></critdates><metadata><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <p>If direct deposit or NACHA file payroll automation is configured, then the direct deposit files are automatically created, combined, and sent to your financial institution. The Direct Deposit Print file is available from the File Transfers page (Menu &gt; Administration &gt; Reporting &gt; File Transfers). Use the Direct Deposit print file to view or print copies of the Direct Deposit Advices.</p>
+         <p>Confirm receipt and totals with your bank.</p>
+         <note type="important">
+            <p>Once the checks have been printed, the payroll cannot be modified.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Payroll Processing</uicontrol><uicontrol>Payroll Gateway</uicontrol><uicontrol>select a pay group</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the Payroll Overview page, select Print. All calculated transactions are printed, and direct deposits (DDAs) are generated. If a third party prints the DDAs, the check export files are generated.</cmd></step><step><cmd>From the File Transfers page, review your Direct Deposit print file.</cmd></step><step><cmd>Validate that your bank file totals balance to your Pre-Check Summary Liability Listing (specific to bank required process). </cmd></step><step><cmd>Verify the deposit amounts using the Direct Deposit Register standard report.</cmd></step></steps></taskbody></task>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i56210"><title>Mass Update Job and Salary Information</title><shortdesc>Employee administrators can quickly process job and salary information changes for multiple employee records at one time by using the Job and Salary work event. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-03-09T20:26:25"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><taskbody><context>
+         <p>Before processing job and salary changes via a mass update:</p>
+         <ul><li>Select the mass update type. </li><li>Define the type of change (Change Job, Change Salary, or Change Job and Salary) and enter details.</li><li>Select the employees that you want to include in the update.</li><li>Define the field changes.</li><li>Review and submit the changes.</li></ul>
+         <p>Important: If you have multiple component companies, you must define a separate mass update for the job and salary information for each component company. </p>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol></menucascade></p>
+         <ul><li>From the <uicontrol>Add Mass Update </uicontrol>page, select the <uicontrol>Job and Salary Change</uicontrol> from the <uicontrol>Actions </uicontrol>menu, and then select <uicontrol>OK</uicontrol>. </li></ul>
+      </context></taskbody></task>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="yrp_zdm_kfb"><title>Workforce Management Integration</title><shortdesc>Administrators can bring in time information that will be inserted into the timesheet. In addition, time can be exported for payroll.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody/></concept>

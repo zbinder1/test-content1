@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="y5c_lsy_f2b"><title>Request a Shift Change</title><shortdesc>Employees can request a shift change from the Team Schedule page. When employees view the page, unassigned shifts are listed under their name. Each activity is listed on a separate row.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>Myself</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Scheduling</uicontrol><uicontrol>Team Schedule</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Request Change</uicontrol>.</cmd><info>
+                    <image href="WFMTeamSchedulePageEEView.png"><alt>Employee View of Team Schedule Page</alt></image>
+                </info></step><step><cmd>Select the Unassigned Shift row to request the shift.</cmd></step><step><cmd>Complete the Request Schedule Change page. Employees can select from one of three types of changes:</cmd><info>
+                    <ul><li>Give the shift to a coworker instead of me.</li><li>Give away the shift so that it has an "unassigned" status. (This option is delivered off and must be enabled.)</li><li>Swap the shift with a coworker for another shift.</li></ul>
+                </info><info>
+                    <note type="note">Manager approval may be required based on configuration when creating or editing a scheduling team (Settings > Scheduling Teams > create or edit a team > Self Scheduling section > Allow Employee Request Unassigned Shift option).</note>
+                </info></step><step><cmd>Select <uicontrol>Request Change</uicontrol>.</cmd></step></steps></taskbody></task>

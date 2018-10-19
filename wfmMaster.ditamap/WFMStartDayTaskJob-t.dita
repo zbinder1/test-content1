@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="wrp_1p5_g2b"><title>Create a Start of Day Task Job</title><shortdesc>The Start of Day Task job creates timesheet records and runs pay rules, ensuring items such as holiday hours, exempt employee hours, and time off from Time Off and Allowances appear on the timesheet when it is first accessed. This job should be run daily.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <note type="important">Since this job affects important records and pay rules, open a support case via the Customer Success Portal if you need assistance.</note>
+        </context><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Benefits</uicontrol><uicontrol>Time Off</uicontrol><uicontrol>Settings</uicontrol><uicontrol>Job Scheduler</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMCreateStartDayTaskJob.png"><alt>Create a Start of Day Task Job</alt></image>
+                </info></step><step><cmd>Enter <uicontrol>Start of Day Task</uicontrol> as the name and description.</cmd></step><step><cmd>Select <uicontrol>Start of Day</uicontrol> as the job type.</cmd></step><step><cmd>Select <uicontrol>Yes</uicontrol> to enable the schedule, and select <uicontrol>Exact</uicontrol> as the schedule type.</cmd></step><step><cmd>Check the applicable days of the week and enter the time.</cmd></step><step><cmd>Enter the number of days to look back and forward. The recommended setting is "forward" weekly (once every seven days). </cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

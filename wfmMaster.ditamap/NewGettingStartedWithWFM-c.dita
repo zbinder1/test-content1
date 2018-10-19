@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="yfp_vbn_bfb"><title>Getting Started with Workforce Management</title><shortdesc>Workforce Management offers simple and effortless solutions for employees, managers, and administrators.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><p>Workforce Management contains the Time feature and the optional Scheduling feature. Time includes the Time Off and Allowances feature.</p><p>The following self-paced learning resources are available for Time, Time Off and Allowances, and Scheduling: </p><ul><li>
+                <xref scope="external" format="html" href="http://videos.ultimatesoftware.com/WFM/index.html">Workforce Management Overview</xref>
+            </li><li>
+                <xref scope="external" format="html" href="https://knowledge.ultipro.com/WorkforceMgmt/eLearning/GettingStartedAdminTimeOff/story_html5.html">Getting Started with Time Off and Allowances for Administrators</xref>
+            </li><li>
+                <xref scope="external" format="html" href="https://knowledge.ultipro.com/WorkforceMgmt/eLearning/GettingStartedAdmin/presentation_html5.html">Getting Started with Workforce Management for Administrators</xref>
+            </li><li>
+                <xref scope="external" format="html" href="https://knowledge.ultipro.com/WorkforceMgmt/eLearning/GettingStartedManager/presentation_html5.html">Getting Started with Workforce Management for Managers</xref>
+            </li><li>
+                <xref scope="external" format="html" href="https://rise.articulate.com/share/TVNwflTqcSB9jFbeF05ae-LhAmiCSGSm#/?_k=fjhuwl">Getting Started with Workforce Management for Employees</xref>
+            </li></ul><image href="WFMOverview.png"><alt>Workforce Management Overview</alt></image><section>
+            <title>Time Off and Allowances</title>
+            <p>With Time Off and Allowances, employees can easily request time off and managers can gain insight into their team's time off.</p>
+            <ul><li>Enables employees to view real-time and forecast balances, easily request time off, and view their team time off calendar</li><li>Enables managers to have insight into their team's time off, update a team member's time off balance, and create a request on behalf of an employee</li><li>Provides the ability to govern coverage and blackout dates and to view a team time off calendar</li></ul>
+        </section><section>
+            <title>Time</title>
+            <p>Time provides an effortless time-tracking solution that increases productivity and empowers employees to take action quickly.</p>
+            <ul><li>Enables employees to effortlessly clock in and out, seamlessly transfer and record labor, edit the meal waiver status each day, and submit timesheets for approval</li><li>Enables managers to act on employee timesheets, view labor metric defaults and upcoming team time off, and gain insights into team time and labor summary information</li><li>Provides built-in analytics</li></ul>
+        </section><section>
+            <title>Scheduling</title>
+            <p>Scheduling offers self-service scheduling capabilities in an easy-to-use interface. Scheduling helps organizations better manage employee shifts and gain greater visibility into their workforce.</p>
+            <ul><li>Enables employees to enter their availability and preferences, view their schedules, and swap and drop schedules</li><li>Enables managers to schedule employees based upon standard and custom labor metrics; reassign employee shifts with drag-and-drop capability; and post schedules at an employee, day, or period level</li><li>Provides a template library to help managers with faster scheduling for their workforce</li></ul>
+        </section></conbody></concept>

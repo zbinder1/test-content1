@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i53257"><title>Canada Year-End T4 Slip Information</title><shortdesc>The Canada T4 slip (Statement of Remuneration Paid) usually is issued by the employer, and includes information on specific types of income paid during the tax year (for example, salary, wages, tips or gratuities, bonuses, and vacation pay) as well as the amount of income tax deducted.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2016-08-03T14:56:08"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Year-End"/></metadata></prolog><refbody><section>
+         <p>This table illustrates the mapping of data elements with the boxes on the T4 slip for Canada employees and the UltiPro field name (data source). For a complete description of each box on the T4 slip, refer to the Canada Revenue Agency (CRA) website and related publications:</p>
+         <p>http://www.craarc.gc.ca/tx/bsnss/tpcs/pyrll/rtrns/t4/slps/cmpltng-eng.html</p>
+         <table><tgroup cols="4"><colspec colname="col1" colwidth="0.5*" colnum="1"/><colspec colname="col2" colwidth="1*" colnum="2"/><colspec colname="col3" colwidth="1.5*" colnum="3"/><colspec colname="col4" colwidth="2*" colnum="4"/><thead><row><entry>Box</entry><entry>T4 Slip Label</entry><entry conref="common-entry.dita#commonEntry/S750469"></entry><entry>UltiPro Field Name (Data Source)</entry></row></thead><tbody><row><entry>
+                        <p>10</p>
+                     </entry><entry>
+                        <p>Province of employment</p>
+                     </entry><entry>
+                        <p>Employee's province of employment</p>
+                     </entry><entry>
+                        <p>PayReg.PrgStateSUI</p>
+                        <ul><li>AB (Alberta)</li><li>BC (British Columbia)</li><li>MB (Manitoba)</li><li>NB (New Brunswick)</li><li>NL (Newfoundland and Labrador)</li><li>NS (Nova Scotia)</li><li>NT (Northwest Territories)</li><li>NU (Nunavut)</li><li>ON (Ontario)</li><li>PE (Prince Edward Island)</li><li>QC (Quebec)</li><li>SK (Saskatchewan)</li><li>YT (Yukon)</li></ul>
+                        <p>
+                           <note type="note">US or ZZ currently not supported.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>12</p>
+                     </entry><entry>
+                        <p>Social Insurance Number</p>
+                     </entry><entry>
+                        <p>Employee's Social Insurance Number (SIN)</p>
+                     </entry><entry>
+                        <p>EmpIntl.EinNationalID</p>
+                     </entry></row><row><entry/><entry>
+                        <p>Employer's Name</p>
+                     </entry><entry>
+                        <p>Reporting company name and address</p>
+                     </entry><entry>
+                        <p>Company.cmpCompanyName</p>
+                        <p>cmpAddressLine1 + cmpAddressLine2</p>
+                        <p>cmpAddressCity + cmpAddressState + cmpAddressZipCode</p>
+                        <p>cmpAddressCountry</p>
+                     </entry></row><row><entry/><entry>
+                        <p>Employee's Name and Address</p>
+                     </entry><entry>
+                        <p>Reporting employee name and address</p>
+                     </entry><entry>EmpPers.eepNameLast + eepNameFirst + truncate <p>eepNameMiddle to initial</p><p>eepAddressLine1</p><p>eepAddressLine2</p><p>eepAddressCity + eepAddressState + eepAddressZipCode</p><p>eepAddressCountry</p>
+                     </entry></row><row><entry>
+                        <p>14</p>
+                     </entry><entry>
+                        <p>Employment Income</p>
+                     </entry><entry>
+                        <p>Total employment income before deductions</p>
+                     </entry><entry>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingBox = 14 </entry></row><row><entry>
+                        <p>16</p>
+                     </entry><entry>
+                        <p>Employee's CPP Contributions</p>
+                     </entry><entry>
+                        <p>Employee contributions to Canada Pension Plan (CPP)</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTaxCode = CNCPPEE, sum PTaxHist.pthCurTaxAmt</p>
+                        <p>
+                           <note type="note">Boxes 16 and 17 cannot be populated on the same slip.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>17</p>
+                     </entry><entry>
+                        <p>Employee's QPP Contributions</p>
+                     </entry><entry>
+                        <p>Employee contributions to Quebec Pension Plan (QPP)</p>
+                     </entry><entry/></row><row><entry>
+                        <p>18</p>
+                     </entry><entry>
+                        <p>Employee's EI Premiums</p>
+                     </entry><entry>
+                        <p>Employee premiums for Employment Insurance (EI)</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTaxCode = CNEIEE, sum PTaxHist.pthCurTaxAmt</p>
+                     </entry></row><row><entry>
+                        <p>20</p>
+                     </entry><entry>
+                        <p>RPP Contributions</p>
+                     </entry><entry>
+                        <p>Employee contributions to a Registered Pension Plan (RPP)</p>
+                     </entry><entry>
+                        <p>Sum PDedHist.pdhEECurAmt MINUS PDedHist.pdhEENativeExemptAmt where pdhTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingBox = 20</p>
+                     </entry></row><row><entry>
+                        <p>22</p>
+                     </entry><entry>
+                        <p>Income Tax Deducted</p>
+                     </entry><entry>
+                        <p>Tax withheld for federal income tax (FIT) plus the tax withheld for provincial income tax for the province of employment reported on the slip</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTaxCode = CNFIT and XXPIT except QCPIT, sum PTaxHist.pthCurTaxAmt (where XXPIT is the provincial income tax code on the pay)</p>
+                        <p>Exclude pthCurTaxAmt where pthTaxCode = „QCPIT‟</p>
+                        <p>
+                           <note type="note">Multiple XXPITs cannot be reported on the same form.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>24</p>
+                     </entry><entry>
+                        <p>EI Insurable Earnings</p>
+                     </entry><entry>
+                        <p>Employment Insurance (EI) insurable earnings</p>
+                        <p>The value "0.00" is displayed when there are no insurable earnings for the entire reporting year and box 18 (Employee’s EI Premiums) is blank.</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTaxCode = „CNEIEE‟, sum PTaxHist.pthCurTaxableWages, except as follows:</p>
+                        <ul><li>Where PTaxHist.pthTaxCode = „CNEIEE‟ and summed PTaxHist.pthCurTaxableWages =&gt; TxTbMast.mttIfWageBaseIsNotOver for the current record where mttTaxCode = „CNEIEE‟</li><li>Where PTaxHist.pthTaxCode = „CNEIEE‟ and summed PTaxHist.pthCurTaxableWages =&gt; yfdValue where ytfBox = "14"</li><li>Where PTaxHist.pthTaxCode = „CNEIEE‟ and summed PTaxHist.pthCurTaxableWages = 0.00 (zero)</li></ul>
+                     </entry></row><row><entry>
+                        <p>26</p>
+                     </entry><entry>
+                        <p>CPP/QPP Pensionable Earnings</p>
+                     </entry><entry>
+                        <p>Canadian or Quebec pensionable earnings</p>
+                        <p>If the province of employment is not Quebec, Canada Pension Plan (CPP) earnings are displayed on the slip.</p>
+                        <p>If the province of employment is Quebec, Quebec Pension Plan (QPP) earnings are displayed on the slip.</p>
+                        <p>The value of "0.00" is displayed when the employee is exempt from C/QPP on every pay in the year being reported or there are no pensionable earnings.</p>
+                        <p>1 For QPP, the maximum pensionable earnings is displayed when the QPP pensionable wages are equal to or greater than the wage limit if the value for Box 14 is less than the QPP wage limit.</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTaxCode = „CNCPPEE‟ or „CNQPPEE, sum PTaxHist.pthCurTaxableWages, for every GenNumber for every pay being reported on the slip, up to the maximum pensionable earnings for the reporting year.</p>
+                        <p>If the only form of remuneration received by the employee was pensionable non-cash taxable benefits for every pay being reported on the slip, include the value of the benefit in Box 26.</p>
+                     </entry></row><row><entry>
+                        <p>28</p>
+                     </entry><entry>
+                        <p>Exempt CPP/QPP</p>
+                     </entry><entry>
+                        <p>Displays an "X" if the employee was exempt for Canada Pension Plan (CPP)/Quebec Pension Plan (QPP) for every pay in the year (excluding voids), unless there are values in Boxes 16, 17, and 26.</p>
+                     </entry><entry>
+                        <p>X if PTaxHist.pthTaxCode = „CNCPPEE‟ or „CNQPPEE‟ and pthExemptFromTax = „Y‟ for the tax code for every pay being reported where summed pthCurExemptWages &gt; 0.00 and summed pthCurTaxableWages = 0.00 and EmpTax.EetIsExemptDueToElections= 0 or NULL Excluding void/voided records (PrgIsVoided=Y and PrgIsVoidingRecord=N OR PrgIsVoided=N and PrgIsVoidingRecord=Y) Cannot be checked if there are amounts in Boxes 16, 17, or 26.</p>
+                        <p>Is Blank if employee only receives retiring allowances during year with no other earnings.</p>
+                     </entry></row><row><entry>
+                        <p>28</p>
+                     </entry><entry>
+                        <p>Exempt EI</p>
+                     </entry><entry>
+                        <p>Displays an "X" if the employee was exempt for Employment Insurance (EI) for every pay in the year (excluding voids), unless there are values in Boxes 18 and 24.</p>
+                     </entry><entry>
+                        <p>X if PTaxHist.pthTaxCode = „CNEIEE‟ and pthExemptFromTax = „Y‟ for the tax code for every pay being reported</p>
+                        <p>Excluding void/voided records (PrgIsVoided=Y and PrgIsVoidingRecord=N OR PrgIsVoided=N and PrgIsVoidingRecord=Y)</p>
+                        <p>Cannot be checked if there are amounts in Boxes 18 or 24.</p>
+                     </entry></row><row><entry>
+                        <p>28</p>
+                     </entry><entry>
+                        <p>Exempt PPIP</p>
+                     </entry><entry>
+                        <p>Displays an "X" if the employee was exempt for Quebec Parental Insurance Plan (QPIP) for every pay in the year (excluding voids), unless there are values in Boxes 55 and 56.</p>
+                     </entry><entry>
+                        <p>X if PTaxHist.pthTypeOfTax = „PIP‟ and pthExemptFromTax = „Y‟ for the tax code for every pay being reported</p>
+                        <p>Excluding void/voided records (PrgIsVoided=Y and PrgIsVoidingRecord=N OR PrgIsVoided=N and PrgIsVoidingRecord=Y)</p>
+                        <p>Cannot be checked if there are amounts in Boxes 55 or 56.</p>
+                     </entry></row><row><entry>
+                        <p>29</p>
+                     </entry><entry>
+                        <p>Employment Code</p>
+                     </entry><entry>
+                        <p>Enter the appropriate code in this box if one of the following situations applies. Otherwise, leave it blank.</p>
+                        <p>11 – Placement or employment agency workers</p>
+                        <p>12 – Taxi drivers or drivers of other passenger-carrying vehicles</p>
+                        <p>13 – Barbers or hairdressers</p>
+                        <p>14 – Withdrawal from a prescribed salary deferral arrangement plan</p>
+                        <p>15 – Seasonal Agricultural Workers Program</p>
+                        <p>16 – Detached employee – Social Security agreement</p>
+                        <p>17 – Fishers – Self-employed</p>
+                     </entry><entry>
+                        <p>Not currently supported</p>
+                        <p>
+                           <note type="note">Enter Code 15 when employees are identified as seasonal agricultural workers and both seasonal and agricultural options are selected in the employees' configuration.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>44</p>
+                     </entry><entry>
+                        <p>Union Dues</p>
+                     </entry><entry>
+                        <p>Employee deductions for union dues (only if the employer and the union agree that the union does not issue receipts for union dues to employees)</p>
+                     </entry><entry>
+                        <p>Sum PDedHist.pdhEECurAmt MINUS PDedHist.pdhEENativeExemptAmt where DedCode DedInclOnTxRptForm = „Y‟ and.dedDedCode = pdhDedCode and pdhTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingBox = 44</p>
+                     </entry></row><row><entry>
+                        <p>46</p>
+                     </entry><entry>
+                        <p>Charitable Donations</p>
+                     </entry><entry>
+                        <p>Employee deductions for donations to registered charities in Canada</p>
+                     </entry><entry>
+                        <p>Where a charitable donation deduction code is configured to be reported on the T4, sum PDedHist.pdhEECurAmt:</p>
+                        <ul><li>Where pdhTaxCategory = TaxCategoryReporting.trcTaxCate gory and the following apply:<ul><li>trcFormCode = T4</li><li>trcFormBox = 46</li></ul>
+                           </li><li>And DedInclOnTxRptForm = „Y‟ for DedCode.dedDedCode = pdhDedCode</li></ul>
+                     </entry></row><row><entry>50</entry><entry>RPP or DPSP Registration Number</entry><entry>Seven-digit registration number for a Registered Pension Plan (RPP) or a Deferred Profit Sharing Plan (DPSP) (even if only employer contributions)</entry><entry>DedCode.dedDedRegistrationNumber where pdhTaxCategory = trctaxcategroy where trcreportingbox=50 where pdhDedCode = dedDedCode</entry></row><row><entry/><entry/><entry>If employee is configured with multiple plans, report registration number of the plan under which the employee has the largest pension adjustment.<p>Only report a registration number when an amount is being reported for a pension adjustment.</p><p>If no data is reported for a pension adjustment, no registration number is required.</p>
+                     </entry><entry>
+                        <p>OR</p>
+                        <p>EarnCode.ernEarnRegistrationNumber where pehTaxCategory = trctaxcategroy where trcreportingbox=50 where pehEarnCode = ernEarnCode</p>
+                        <p>OR</p>
+                        <p>If the employee has pension adjustment amounts in history for multiple deduction and/or earnings codes, DedCode.dedDedRegistrationNumber if sum pdhEECurAmt for the pdhDedCode</p>
+                        <p>OR</p>
+                        <p>EarnCode.ernEarnRegistrationNumber if sum pehCurAmt for the pehEarnCode, whichever is the highest.</p>
+                     </entry></row><row><entry>
+                        <p>52</p>
+                     </entry><entry>
+                        <p>Pension Adjustment</p>
+                     </entry><entry>
+                        <p>Employee's pension adjustment (PA) for the year</p>
+                        <p>
+                           <note type="note">Does not display reporting information for an employee who accumulated a pension adjustment and passes away within the same tax year.</note>
+                        </p>
+                     </entry><entry>Sum PEarHist.pehCurAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory plus the sum of PDedHist.pdhEECurAmt where and the following apply: <p>trcFormCode = T4 </p><p>trcFormBox = 52 </p><p>Effective year-end 2011: MINUS Sum PDedHist.pdhEECurAmt where pdhTaxCategory = TaxCategoryReporting.trcTaxCategory and the following apply:</p><p>trcFormCode = T4</p><p>trcFormBox = 52</p><p>and DedCode.DedExcludeRPP=Y and DedTaxCategory='RPP'</p><p>Displays full dollar amount only on the slip (no cents).</p><p>If EmpPers.EepDateDeceased is not null and is between January 1 and December 31 (inclusive) of the given tax reporting year, display zero (0).</p>
+                     </entry></row><row><entry>
+                        <p>54</p>
+                     </entry><entry>
+                        <p>Payroll Account Number</p>
+                     </entry><entry>
+                        <p>Business Number (BN)</p>
+                     </entry><entry/></row><row><entry>
+                        <p>55</p>
+                     </entry><entry>
+                        <p>Employee's PPIP Premiums</p>
+                     </entry><entry>
+                        <p>Provincial Parental Insurance Plan (PPIP) Premiums withheld from employees whose province of employment was Quebec</p>
+                     </entry><entry>
+                        <p>Where PTaxHist.pthTypeOfTax = „PIP‟ and pthIsEmployerTax = „N‟, sum PTaxHist.pthCurTaxAmt</p>
+                     </entry></row><row><entry>
+                        <p>56</p>
+                     </entry><entry>
+                        <p>Employee's PPIP Insurable Earnings</p>
+                     </entry><entry>
+                        <p>Total PPIP insurable earnings used to calculate the employee‟s PPIP premiums whose province of employment was Quebec, up to a maximum wage limit</p>
+                        <p>No value is displayed if:</p>
+                        <ul><li>There are no insurable earnings</li><li>Insurable earnings are the same as the employment income in Box 14</li><li>Insurable earnings are over the maximum for the year</li></ul>
+                     </entry><entry>
+                        <p>sum PTaxHist.pthCurTaxableWages where PTaxHist.pthTypeOfTax = „PIP‟ and pthIsEmployerTax = „N‟</p>
+                        <p>No value is displayed when PTaxHist.pthTypeOfTax = „PIP‟ and pthIsEmployerTax = „N‟ and summed PTaxHist.pthCurTaxableWages &gt; TxTbMast.mttIfWageBaseIsNotOver where mttTaxCode = „CNQPIPEE</p>
+                        <p>No value is displayed when PTaxHist.pthTypeOfTax = „PIP‟ and pthIsEmployerTax = „N‟ and summed PTaxHist.pthCurTaxableWages = yfdValue where ytfBox = ‟14‟</p>
+                        <p>No value is displayed when PTaxHist.pthTypeOfTax = „PIP‟ and pthIsEmployerTax = „N‟ and yfdValue = „0.00‟ (zero, Null, or Blank) for yfdBox = ‟55‟</p>
+                     </entry></row></tbody></tgroup></table>
+      </section></refbody></reference>

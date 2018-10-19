@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="bhf_zmt_1fb"><title>September 13, 2018</title><shortdesc>Here are the September 13 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>Managers receive a notification if a time off request is approved in Time Off and Allowances but cannot be received by the timesheet. If the timesheet was manually approved and the manager has permission to unapprove it, then the manager can unapprove it, insert the approved time off, and manually reapprove the timesheet. If the timesheet was automatically approved, it is automatically unapproved and the manager can manually reapprove it. Managers also receive a notification about approved time off requests for submitted timesheets.</p>
+            <p>The Holiday rule was enhanced so that the “look back” period for working on a scheduled day can be configured rather than defaulting to seven days (Settings > Pay Rule Groups).</p>
+            <p>An enhancement was made to several rules (Settings > Pay Rule Groups): Call Back, Guaranteed, Daily Threshold OT, Daily Schedule OT, Time Clock Interval Rounding, Time Clock Duration Rounding, Time Entry Duration Rounding, and Shift Grace. Administrators can indicate if the rule should continue when there is a match for the current rule. When these rules are applied to an employee and the timesheet is calculated, all rule sets that are marked “No” for the match option are run.</p>
+        </section><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>Managers are now notified if a time off request cannot be completed because the timesheet is in an Approved or Submitted status. The Time feature sends warning and error messages. To support this enhancement, a new permission was added when creating or editing roles: MANAGER_TOA_REQUEST_TIMESHEET_WARNING. By default, this permission is not assigned to any roles.</p>
+            <p>Administrators can configure Time Off and Allowances to integrate with Exchange. This enhancement applies to Microsoft Outlook only. When this enhancement is enabled and an employee has a valid email address, approved time off requests are integrated with the employee's Exchange calendar as all-day appointments titled "PTO - Blocked." If the requests are canceled, they no longer appear in the employee's calendar. Additional fields were added to the Company Preferences page (Settings > Company Preferences):</p>
+            <ul><li>Exchange Integration On/Off (default is Off)</li><li>Username/password/service email</li><li>Domain (optional field)</li><li>Ability to delete configuration or change the password</li></ul>
+            <p>The Policy Start Date field was renamed Accruals Begin On (Settings > Time Off Policy).</p>
+            <p>If a policy is configured to have unlimited time off (Settings > Time Off Policy) and the new Hide Negative Balance Warning for Requests option is set to “Yes,” then employees do not receive a warning message if their balance is a negative value. Also, there are new fields for hiding the balance as of a specified date or before and after. These fields default to No.</p>
+            <p>When administrators create or edit a time off policy (Settings > Time Off Policy), several enhancements are available for maximum and minimum balances:</p>
+            <ul><li>Maximum Annual Accrual field - Limit the maximum amount an employee can accrue per policy year. The maximum annual accrual restriction applies only to system-generated accruals, not manual edits to a balance or balance imports.</li><li>Maximum Annual Usage field - Limit the maximum amount of accrual usage allowed per policy year. If this option is selected when an employee requests time off or enters time on a timesheet and the maximums are exceeded, then the employee receives an error message.</li><li>End of Year Minimum field – Limit a minimum threshold per policy. If this option is selected when an employee requests time off or enters time on a timesheet and the hours or days requested or entered cause the balance to be less than the minimum, then the employee receives an error message.</li></ul>
+        </section><section>
+            <title>Scheduling Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+        </section><p>In addition to budgeting by hours or headcount, you can now budget by dollars (Settings > Scheduling Teams > Create). The new Schedule Cost section contains two options: Hourly Pay Rate and Job Rate. (For the job rate, there is only one rate per job for a single point in time.) This enhancement can be enabled for both new teams and existing teams. On the Team Schedule page, selecting the icon on the Total row expands to show the daily schedule cost, coverage, and total hours. If these cells are shaded in green, the schedule is under budget. If these cells are shaded in red, the schedule is over budget. Note: To use this enhancement, the new MANAGER_SCHEDULE_COST permission must be assigned.</p><section>
+            <title>Reporting Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+            <p>A new Employee Assignment report is available to help analyze the information that is assigned to employees. Examples of this information include timesheet configuration group, policy type, and time zone.</p>
+        </section><section>
+            <title>What's Updated in Scheduling (September 13, 2018)</title>
+            <p>The following is another noteworthy update to Workforce Management:</p>
+            <p>Shift times on the Team Schedule page and in the exported schedule report now match, as expected. A company’s time zone is respected so that the shift times always match.</p>
+        </section><section>
+            <title>What's Updated in Reporting (September 13, 2018)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+        </section><p>Time Off and Allowances reports with large amounts of data export to PDF, CSV, or XLS, as expected.</p><p>The Timesheet report still runs when an employee is part of a pay group that does not have a current pay period record. However, the following message appears: “The parameters provided yielded no results.”</p></conbody></concept>

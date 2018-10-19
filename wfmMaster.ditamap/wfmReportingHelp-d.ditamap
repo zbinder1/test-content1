@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE map PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIMAP//EN" "ultiMap.dtd" [
+]>
+<?Pub Inc?><map><title>Reporting Help</title><topicref href="ReportingDivider-c.dita"><topicref href="WFMReportingFeature-c.dita"></topicref><topicref href="WorkforceManagementShareReportTemplates-t.dita"></topicref><topicref href="WorkforceManagementRunReports-t.dita"></topicref><topicref href="WorkforceManagementRunBIReports-t.dita"></topicref><topicref href="WFMDefineJobMappingsACAPBJReport-t.dita"></topicref><topicref href="WFMRunACAPBJReport-t.dita"></topicref></topicref></map><?Pub *0000002357 0?>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIMAP//EN" "ultiMap.dtd" [
+]>
+<map id="i56206_map"><title>Change Job and Salary using Mass Updates</title><topicref href="JobAndSalaryChanges-c.dita"></topicref><topicref href="EnableWebAccessRightsToMassUpdate-t.dita"></topicref><topicref href="MassUpdateJobAndSalaryWorkEvent-r.dita"></topicref><topicref href="MassUpdateJobAndSalaryInformation-t.dita"></topicref><topicref href="DefineTheTypeOfChange-t.dita"></topicref><topicref href="SelectEmployees-USA-t.dita"></topicref><topicref href="ChangeJobAndPayrollInformationForTheMassUpdate-t.dita"></topicref><topicref href="ChangeSalaryInformationForTheMassUpdate-t.dita"></topicref><topicref href="ReviewAndSubmitMassUpdateForJobAndSalaryInformation-t.dita"></topicref><topicref href="ViewMassUpdateDetails-t.dita"></topicref></map>

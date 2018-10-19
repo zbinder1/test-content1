@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i56208"><title>Enable Web Access Rights to Mass Update</title><shortdesc>System administrators must configure access to the Mass Updates feature for security purposes. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-03-09T20:04:29"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version="UltiPro v12.2.2"/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><taskbody><context>
+         <p>If you have an Employee Administrator role, check that you have security access rights enabled for the Add Mass Update web element in order to use the Mass Updates feature. Once you enable this option, additional options appear on the Define Change Type page of the Mass Update Job and Salary work event. These options correspond with the mass update type the user is qualified to perform based on security settings enabled in Role Administration. For example, if an employee administrator is qualified to change salary information, but not job information for employees, only the Change Salary option is available from the Define Change Type page. </p>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>System Configuration</uicontrol><uicontrol>Security</uicontrol><uicontrol>Role Administration</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the Role Administration page, search for and select the desired role. </cmd></step><step><cmd conref="common-cmd.dita#commonCmd/N777594"></cmd></step><step><cmd>From the Web Access Rights page, navigate to:</cmd><info>
+               <ul><li>Employee Admin &gt; Mass Updates &gt; Add Mass Update</li></ul>
+            </info></step><step><cmd>Check the Add and View boxes.</cmd></step><step><cmd conref="common-cmd.dita#commonCmd/G403784"></cmd><info>
+               <note type="note">
+                  <p>The Employee Administrator must have security access enabled for Change Job, Change Salary, or Change Job and Salary in order to access the Job and Salary Mass Updates feature.</p>
+               </note>
+            </info></step></steps></taskbody></task>

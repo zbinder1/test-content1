@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="mnc_yp2_kfb"><title>Assign Geofence Enforcement to Employees</title><shortdesc>After geofences and geofence groups have been created, administrators need to assign geofence enforcement to employees.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+                                    <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Time</uicontrol><uicontrol>My Team</uicontrol><uicontrol>select employee</uicontrol></menucascade></p>
+                        </context><steps><step><cmd>Select the Time tab.</cmd></step><step><cmd>Select the Add Geofence Enforcement link.</cmd><info>
+                                                            <image href="WFMAssignGeofenceEnforcementToEE.png"><alt>Assign Geofence Enforcement to an Employee</alt></image>
+                                                </info></step><step><cmd>Enter the start and end dates that geofencing should be applied to this employee, if applicable.</cmd></step><step><cmd>Select the type of geofence enforcement (Active, Passive, or None). The default is None, which means geofencing does not apply to the employee.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

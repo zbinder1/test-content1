@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="rp5_pln_b2b"><title>Share Report Templates</title><shortdesc>Teams and users can share report templates.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+                                                            <p><menucascade><uicontrol>Reporting</uicontrol><uicontrol>Manage Templates</uicontrol></menucascade></p>
+                                        </context><steps><step><cmd>At the Actions column on the Manage Templates page, select <uicontrol>Share</uicontrol> for the selected template.</cmd><info>
+                                                                                                    <image href="WFMShareTemplateWithRoles.png"><alt>Share Report Templates with Roles</alt></image>
+                                                                                </info></step><step><cmd>From the template detail page, select either the Edit option or Select option for the roles, users, teams, or administrative teams with whom you want to share the template.</cmd></step><step><cmd>Make your selections and select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

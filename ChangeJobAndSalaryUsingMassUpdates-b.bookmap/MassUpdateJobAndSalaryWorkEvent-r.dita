@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i57107"><title>Mass Update Job and Salary Work Event</title><shortdesc>The Mass Update Job and Salary work event guides you through the process of mass updating job and salary information for multiple employees. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-05-25T18:09:48"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version="UltiPro v12.2.2"/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><refbody><section>
+         <p>After you select the type of mass update to complete, the applicable pages appear in the work event: </p>
+         <ul><li>Change Salary</li><li>Change Job</li><li>Change Job and Salary</li></ul>
+         <p>The Change Job and Salary work event supports mass updates to the current job history record only. Refer to the table to determine which record types, values, rules, and workflow are supported.</p>
+         <table><tgroup cols="2"><colspec colname="col1" colwidth="1.68*" colnum="1"/><colspec colname="col2" colwidth="0.32*" colnum="2"/><thead><row><entry>Job and Salary Information</entry><entry>SupportedYes or No</entry></row></thead><tbody><row><entry>Record Types and Fields</entry><entry/></row><row><entry>
+                        <ul><li>Current Job RecordField Values: Job Group, Job, Pay Group, Pay Frequency, Scheduled Hours, Employee Type, Hourly/Salaried, Full/Part Time, Shift Group, Shift, Org Levels (1 - 4), Labor Union, and National Union</li></ul>
+                     </entry><entry>Yes</entry></row><row><entry>
+                        <ul><li>Current Job RecordField Values: Alternate Title, Supervisor, Hire Source, Project, Time Clock, Seasonal, Agricultural, Youth/Training, Direct Labor, Pay Automatically, Promotion, Transfer, Notes. </li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Current Salary RecordField Values: Pay Group, Pay Frequency, Scheduled Hours, Percent Change, New Rate, Pay Scale, Salary Step</li></ul>
+                     </entry><entry>Yes</entry></row><row><entry>
+                        <ul><li>Current Salary RecordField Values: Pay Currency, Other Rates</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Review Information: Review Date, Rating, Type, Reviewer, Notes</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Global Employees and Companies</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>New Hire Record</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Position Management Record for Change Position</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Position Management Record for Change Position and Salary</li></ul>
+                     </entry><entry>No</entry></row><row><entry>
+                        <ul><li>Position Management Record for Change Salary</li></ul>
+                     </entry><entry>Yes</entry></row><row><entry>Field Value Rules</entry><entry>No</entry></row><row><entry>United States and Canada Employees and Companies</entry><entry>Yes</entry></row><row><entry>Workflow Administration</entry><entry>No</entry></row><row><entry>Role Based Filtering: Org Levels (1-4), New Job, Pay Groups</entry><entry>Yes</entry></row><row><entry>Company Code Filtering: Org Levels (1-4), Job Group, New Job, Pay Groups</entry><entry>Yes</entry></row><row><entry>Future Dating</entry><entry>Yes</entry></row></tbody></tgroup></table>
+      </section></refbody></reference>

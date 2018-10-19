@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="jfn_nbt_f2b"><title>Create New Templates</title><shortdesc>Templates are applied to scheduling teams. Shift templates can be created anytime during the scheduling process. Labor metrics can be used when creating or editing a template. The labor metrics available for scheduling are based on labor metric groups created in the Time feature.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Scheduling</uicontrol><uicontrol>Templates</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMTemplateDetailsPage.png"><alt>Schedule Template Details Page</alt></image>
+                </info></step><step><cmd>Enter the template name and description.</cmd><info>
+                    <ul><li>You can save at this point and add shifts later from the Team Schedule page.</li><li>Or, you can click in a blank cell under a day of the week in the Schedule section. Select the day of the week and enter start and end times. Select labor metrics, if desired or configured as required, enter the number of shifts, and select <uicontrol>Add Shift</uicontrol>.</li></ul>
+                </info></step><step><cmd>Select <uicontrol>Save</uicontrol> on the Template Details page.</cmd></step><step><cmd>To edit or delete a template, select the template link in the Name column. Make any necessary changes and select <uicontrol>Save</uicontrol>.</cmd><info>After a template is created, it appears in the Template field drop-down list on the Team Schedule page.</info></step></steps></taskbody></task>

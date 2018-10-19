@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i57123"><title>Change Salary Information for the Mass Update</title><shortdesc>Change salary information for the mass update using the work event. Upon submission, a new job history record is created with the effective date and selected reason in the mass update. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-05-25T21:36:00"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><taskbody><context>
+         <p>Future dating is also available when changing records using mass update. If a mass update is submitted for a group of employees with a future date entered on the Define Change Type tab and future dating is enabled, then the mass update displays as Contingent on the Add Mass Update page until the effective date is reached.</p>
+         <note type="note">
+            <p>Some fields, included in these instructions, may not be available if they have not been configured for your company or employees.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol><uicontrol>Change Salary or Change Job and Salary</uicontrol></menucascade></p>
+      </context><steps><step><cmd>In the <uicontrol>General </uicontrol>section, select the following values, as needed.</cmd><info>
+               <ul><li>Select a pay group. The pay frequency defaults based on the pay group selected and cannot be changed. Only active pay groups are listed.</li><li>Enter the scheduled hours. The hours default based on the pay group selected, but can be overwritten or left unchanged.</li><li>Select the pay scale, if required during the assignment of a job that uses pay scales. Pay scale displays only if the employees selected in the mass update are currently assigned to a job that uses pay scales or the job selected in the New Job drop-down list uses pay scales.</li><li>Select the step, if required during the assignment of a job that uses pay scales. Step displays only if the employees selected in the mass update are currently assigned to a job that uses pay scales or the job selected in the New Job drop-down list uses pay scales.</li></ul>
+            </info></step><step><cmd>In the <uicontrol>Salary </uicontrol>section, select one the following:</cmd><info>
+               <ul><li>No Change. This is the default option.</li><li>Percent Change. </li><li>New Rate. If New Rate is selected, enter an amount and frequency (for example, per hour or per year). The Per Year is the default option when New Rate is selected. </li></ul>
+               <note type="note">
+                  <p>Pay rates are calculated when each of the following fields are completed or updated: Pay Group, Pay Frequency, Scheduled Hours, Percent Change or New Rate, Per (New Rate Per), and Payments Per Year. Global employee records are not supported in the mass update. </p>
+               </note>
+            </info></step><step><cmd>Select <uicontrol>Next</uicontrol>. The <uicontrol>Summary </uicontrol>page appears.</cmd><info/></step></steps></taskbody></task>

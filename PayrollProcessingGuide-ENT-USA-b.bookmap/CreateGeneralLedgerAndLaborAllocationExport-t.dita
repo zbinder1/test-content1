@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55705"><title>Create General Ledger and Labor Allocation Export</title><shortdesc>After your payroll is completed, create the General Ledger (GL) Report and Export Files. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T22:05:15"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <note type="important">
+            <p>After processing your General Ledger, the GL Summary Distribution and GL Summary Suspense reports appear in the Completed tab of the Standard Reports page. The GL Export file appears on the File Transfers page.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Reporting</uicontrol><uicontrol>General Ledger</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the General Ledger page, select the applicable country.</cmd></step><step><cmd>From the General Ledger section, select the option for General Ledger and Labor Allocation or Labor Allocation.</cmd></step><step><cmd>From the Include section, select the applicable combination of earnings, deductions, taxes, or paid time off.</cmd></step><step><cmd>From the Company section, select all applicable companies from the Available box and move them to the Selected box.</cmd></step><step><cmd>From the Export Template section, select the GL template from the drop-down list for the export to be processed.</cmd></step><step><cmd>From the Ledger Period section, select an individual pay group from the drop-down list or select All to process all applicable pay groups.</cmd></step><step><cmd>When an individual pay group is selected, the Pay Date - Period End - Type option appears. Select the applicable Pay Date - Period End - Type value from the drop-down list for the From and To fields.</cmd><info>
+               <note type="note">
+                  <p>When the All value, indicating all pay groups, is selected in the Ledger Period section, enter the From and To dates for the calendar period or use the Calendar icon to select the dates.</p>
+               </note>
+               <image href="PayProcessGeneralLedgerUSPORT_27187.png"><alt>Creating the general ledger and labor allocation report</alt></image>
+            </info></step><step><cmd conref="common-cmd.dita#commonCmd/H214424"></cmd></step><step><cmd>Select Reset to continue to process the GL for additional pay groups, as needed.</cmd></step></steps></taskbody></task>

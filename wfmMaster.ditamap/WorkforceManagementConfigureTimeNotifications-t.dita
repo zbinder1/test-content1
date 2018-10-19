@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="d2t_jpx_c2b"><title>Enable or Disable Time Notifications</title><shortdesc>Employee notification preferences can be enabled or disabled for the Time feature. These notifications include timesheet approvals, rejections, modifications, and notes.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <note type="note">Send notifications about modifications sparingly to avoid excessive employee notifications.</note>
+        </context><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Time</uicontrol><uicontrol>My Team</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select an employee name.</cmd></step><step><cmd>Select the Employee Preference tab, and then select <uicontrol>Edit</uicontrol>.</cmd><info>
+                    <image href="WFMTimeNotificationPreferences.png"><alt>Time Notification Preferences</alt></image>
+                </info></step><step><cmd>Select the delivery type for each notification. Available delivery types include Email, In Application, and both In Application and Email.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

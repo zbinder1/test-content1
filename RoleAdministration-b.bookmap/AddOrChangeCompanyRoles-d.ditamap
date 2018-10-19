@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIMAP//EN" "ultiMap.dtd" [
+]>
+<map id="i2620_map"><title>Manage Company Roles</title><topicref href="AddOrChangeCompanyRoles-USA-c.dita"></topicref><topicref href="AddOrChangeRoleInformationAndRoleTypes-USA-t.dita"></topicref><topicref href="EditWebAccessRights-USA-t.dita"></topicref><topicref href="EditStandardReportsAccessRights-USA-t.dita"></topicref><topicref href="EditBusinessRulesAccessRights-USA-t.dita"></topicref></map>

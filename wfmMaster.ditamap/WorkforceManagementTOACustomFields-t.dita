@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="epf_t3g_b2b"><title>Create Custom Fields in Time Off and Allowances</title><shortdesc>Administrators can create custom fields that are referenced in calculations.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Benefits</uicontrol><uicontrol>Time Off</uicontrol><uicontrol>Settings</uicontrol><uicontrol>Custom Fields</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMCreateCustomFieldPage.png"><alt>Create Custom Field Page</alt></image>
+                </info></step><step><cmd>Enter a code and name.</cmd></step><step><cmd>Select the format (for example, numeric, text, duration, or date).</cmd></step><step><cmd>Indicate whether this field should be included on the employee assignments page.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step><step><cmd>To verify that a custom field was added to an employee assignments page:</cmd><substeps><substep><cmd>Select <uicontrol>My Team</uicontrol> from the navigation pane.</cmd></substep><substep><cmd>Select an employee name from the list and then select the Assignments tab. The custom field should appear at the bottom of the page.</cmd></substep></substeps></step><step><cmd>To edit a field from the Custom Fields page, select a hyperlink under the Name column. Make any necessary changes and select <uicontrol>Save</uicontrol>.</cmd><info>
+                    <note type="note">The ADMIN_CUSTOM_FIELDS permission must be assigned for administrators to create custom fields.</note>
+                </info></step></steps></taskbody></task>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i57119"><title>Change Job and Payroll Information for the Mass Update</title><shortdesc>Change job and payroll information for the mass update using the related work event. When field values are not changed, the existing values are retained. Only the changes that are submitted and listed on the summary page are applied to employee records. Upon submission, a new job history record is created with the effective date and reason selected in the mass update.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-05-25T20:52:52"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><taskbody><context>
+         <p>Future dating is also available when changing records using mass update. If a mass update is submitted for a group of employees with a future date entered on the Define Change Type pageand future dating is enabled, then the mass update displays as Contingent on the Add Mass Update page until the effective date is reached. </p>
+         <note type="note">
+            <p>Some fields, included in these instructions, may not be available if they have not been configured for your company or employees.</p>
+         </note>
+         <p>Before you begin, consider the following:</p>
+         <ul><li>Only change the values that you want to mass update. Unchanged fields keep their existing values. </li><li>Role-based security is respected on the Change Job tab of the Change Job and Salary mass update. </li></ul>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol><uicontrol>Change Job or Change Job and Salary</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the <uicontrol>Change Job </uicontrol>page, select field values, as needed.</cmd><info>
+               <ul><li>Select the Job Group if the company is configured to use multiple jobs.</li><li>Select the New Job. Only active jobs are listed. If the Job Group is assigned during the mass update, the list of available jobs is limited to the assigned Job Group.</li><li>Select the Organization Levels (1-4).These four fields are defined by your company.</li><li>Select the National Union.</li><li>Select the Local Union. </li></ul>
+            </info></step><step><cmd>In the <uicontrol>Payroll </uicontrol>section, select the pay group. The pay frequency defaults based on the selected pay group and cannot be changed. Only active pay groups for the company are listed.</cmd></step><step><cmd>Enter the scheduled hours. The hours default based on the selected pay group, but can be overwritten or left unchanged.</cmd></step><step><cmd>Select the following, as needed:</cmd><info>
+               <ul><li>Employee Type (Regular or Temporary)</li><li>Employee Pay (Hourly or Salaried)</li><li>Employee Status (Full Time or Part Time)</li><li>Employee Shift Group</li><li>Employee Shift</li></ul>
+            </info></step><step><cmd conref="common-cmd.dita#commonCmd/N777594"></cmd><info>
+               <p>The <uicontrol>Change Salary</uicontrol> page appears when changing job and salary information.</p>
+               <note type="note">
+                  <p>The employee administrator can select the Clear Existing Values option from the Job and Salary Mass Update work event to remove a value for a group of selected employee records.</p>
+               </note>
+            </info></step></steps></taskbody></task>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="i55703"><title>Create and Print Reports</title><shortdesc>After your payroll is completed, generate the audit reports, balance the payroll totals, and process your General Ledger. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T22:03:32"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><conbody/></concept>

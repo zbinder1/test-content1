@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i979"><title>Gross up Earnings and Taxes for Net Pay Amounts</title><shortdesc>Grossing Up is a method used to determine gross wages when the employer needs to pay an employee a specified net pay amount. You can also add or remove withholding amounts and additional percentages for payroll taxes, including federal, state, and local taxes.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2010-08-06T11:47:26"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="feature" content="Help"/><othermeta name="helpProductKey1" content="EPAY"/><othermeta name="helpProductPageName1" content="WPRPayDetailGrossUp.aspx"/><othermeta name="helpRole1" content="payroll"/></metadata></prolog><taskbody><context/><steps><step><cmd>From either the <uicontrol>View/Change Employee Pay Check</uicontrol> or the<uicontrol> Instant Check Details </uicontrol>page, check the<uicontrol> Gross Up </uicontrol>box on an additional pay or an instant check for an employee.</cmd></step><step><cmd>From the <uicontrol>Gross Up </uicontrol>page, enter the desired net amount of the pay.</cmd></step><step><cmd>Select the earnings code for the gross up calculation.</cmd><info>
+               <note type="important">
+                  <p>There must be at least one earnings record with a flat amount calculation on a non-regular check to compute a net amount based on the gross up calculation. If none exists, add a flat earnings record to the employee before beginning the gross up calculation.</p>
+               </note>
+            </info></step><step><cmd>Check the Federal, State, or Local Tax boxes for the appropriate taxes to be included in the gross up calculation.</cmd><info>
+               <note type="note">
+                  <p>Social Security (USSOC) and Medicare (USMED) taxes are included in the gross up calculation.</p>
+               </note>
+            </info></step><step><cmd>Check the <uicontrol>Include Additional % </uicontrol>box for the applicable tax if an additional amount of federal, state, or local tax will be included as part of the gross up calculation.</cmd><info>
+               <note type="note">
+                  <p>Additional tax amounts withheld are on the <uicontrol>Income Tax</uicontrol> page for the employee.</p>
+               </note>
+            </info></step><step><cmd>Click <uicontrol>OK </uicontrol>to return to the <uicontrol>View/Change Employee Pay Check</uicontrol> page.</cmd></step><step><cmd>Click <uicontrol>Save</uicontrol> to process the gross up calculation and view the resulting gross up calculation and net pay amount.</cmd><info>
+               <note type="important">
+                  <p>If a deduction is present before the <uicontrol>Gross Up</uicontrol> box is checked, the deduction amount will be included in the resulting gross up calculation.</p>
+               </note>
+               <note type="note">
+                  <p>The calculation process for gross-to-net amounts for pre-check results may be completed for regular pays at the time you add an additional pay for a gross up earnings. You must calculate the additional pay separately or rerun the calculation process for all pays.</p>
+               </note>
+            </info></step></steps></taskbody><related-links><link href="AddOrChangeEmployeePayCheckDetails-USA-t.dita#i924"><linktext>Add or Change Employee Pay Check Details</linktext></link></related-links></task>

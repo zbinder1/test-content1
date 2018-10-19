@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i53258"><title>T4 Other Information — Section Boxes (Footnotes)</title><shortdesc>Effective with year-end for tax year 2011 and later, UltiPro delivers support for specific footnote codes in the T4 slip.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2016-08-03T14:57:18"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Year-End"/></metadata></prolog><refbody><section>
+         <p>The following references are related to processing year-end data for tax years 2010 and beyond.</p>
+         <table><tgroup cols="3"><colspec colname="col1" colwidth="0.5*" colnum="1"/><colspec colname="col2" colwidth="1*" colnum="2"/><colspec colname="col3" colwidth="3.5*" colnum="3"/><thead><row><entry>Footnote Code</entry><entry conref="common-entry.dita#commonEntry/S750469"></entry><entry conref="common-entry.dita#commonEntry/A843431"></entry></row></thead><tbody><row><entry>
+                        <p>30</p>
+                     </entry><entry>
+                        <p>Board and Lodging</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=30</p>
+                     </entry></row><row><entry>
+                        <p>32</p>
+                     </entry><entry>
+                        <p>Travel in a Prescribed Zone</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=32</p>
+                     </entry></row><row><entry>
+                        <p>33</p>
+                     </entry><entry>
+                        <p>Medical Travel Assistance</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=33</p>
+                     </entry></row><row><entry>
+                        <p>34</p>
+                     </entry><entry>
+                        <p>Personal Use of Employer's Automobile or Motor Vehicle</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=34</p>
+                     </entry></row><row><entry>
+                        <p>36</p>
+                     </entry><entry>
+                        <p>Interest-Free and Low-Interest Loans</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=36</p>
+                     </entry></row><row><entry>
+                        <p>37</p>
+                     </entry><entry>
+                        <p>Employee Home-Relocation Loan Deduction</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=37</p>
+                     </entry></row><row><entry>
+                        <p>38</p>
+                     </entry><entry>
+                        <p>Security Options Benefits</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=38</p>
+                     </entry></row><row><entry>
+                        <p>39</p>
+                     </entry><entry>
+                        <p>Security Options Deduction – 110(1)(d)</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply: </p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=39</p>
+                     </entry></row><row><entry>
+                        <p>40</p>
+                     </entry><entry>
+                        <p>Other Taxable Allowances and Benefits</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=40</p>
+                     </entry></row><row><entry>
+                        <p>41</p>
+                     </entry><entry>
+                        <p>Security Options Deduction – 110(1)(d.1)</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=41</p>
+                     </entry></row><row><entry>
+                        <p>42</p>
+                     </entry><entry>
+                        <p>Employment Commissions</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply:</p>
+                        <p>pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=42</p>
+                     </entry></row><row><entry>
+                        <p>66</p>
+                     </entry><entry>
+                        <p>Eligible Retiring Allowances</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingCode=66</p>
+                     </entry></row><row><entry>
+                        <p>67</p>
+                     </entry><entry>Non-Eligible Retiring Allowances</entry><entry>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingCode=67 </entry></row><row><entry>
+                        <p>68</p>
+                     </entry><entry>
+                        <p>Status Indian (exempt income) – Eligible Retiring Allowances</p>
+                     </entry><entry>
+                        <p>If sum PehNativeExemptAmt&lt;&gt;0, Sum PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingCode=68</p>
+                     </entry></row><row><entry>
+                        <p>69</p>
+                     </entry><entry>
+                        <p>Status Indian (exempt income) – Non-eligible Retiring Allowances</p>
+                     </entry><entry>
+                        <p>If sum PehNativeExemptAmt&lt;&gt;0, Sum PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingCode=69</p>
+                     </entry></row><row><entry>
+                        <p>71</p>
+                     </entry><entry>
+                        <p>Employment Income that is Exempt from Income Tax Due to an Employee‟s Status Indian Exemption</p>
+                     </entry><entry>
+                        <p>If pehNativeExemptAmt &gt;0 where pehTaxCategory = .trcTaxCategory and trcFormCode = T4 and trcReportingBox = 14,</p>
+                        <p>Sum PEarHist.pehNativeExemptAmt where pehTaxCategory = .trcTaxCategory and trcFormCode = T4 and trcReportingBox = 14</p>
+                     </entry></row><row><entry>
+                        <p>72</p>
+                     </entry><entry>
+                        <p>Section 122.3 Income – Employment Outside Canada</p>
+                     </entry><entry>
+                        <p>Qualified income for Overseas Employment Tax Credit (OETC)</p>
+                     </entry></row><row><entry>
+                        <p>73</p>
+                     </entry><entry>
+                        <p>Number of Days Outside Canada</p>
+                     </entry><entry>
+                        <p>Number of qualified days for Overseas Employment Tax Credit (OETC)</p>
+                     </entry></row><row><entry>
+                        <p>77</p>
+                     </entry><entry>
+                        <p>Workers' Compensation Benefits Repaid to the Employer</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=77</p>
+                     </entry></row><row><entry>
+                        <p>84</p>
+                     </entry><entry>
+                        <p>Deduction for Public Transit Pass</p>
+                     </entry><entry>
+                        <p>Sum PDedHist.pdhEECurAmt where pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=84</p>
+                     </entry></row><row><entry>
+                        <p>85</p>
+                     </entry><entry>
+                        <p>Deduction for Employee-Paid Premiums for Private Health Services Plans</p>
+                     </entry><entry>
+                        <p>Sum PDedHist.pdhEECurAmt where pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4‟ and TaxCategoryReporting.trReportingCode=85</p>
+                     </entry></row><row><entry>
+                        <p>86</p>
+                     </entry><entry>
+                        <p>Security Options Election</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4 and trcReportingCode=86</p>
+                     </entry></row></tbody></tgroup></table>
+      </section></refbody></reference>

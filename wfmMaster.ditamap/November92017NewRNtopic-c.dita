@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="zqq_cyf_bfb"><title>November 9, 2017</title><shortdesc>Here are the November 9 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+        </section><p>In the UltiPro mobile app, time off now appears on the timesheet.</p><p>Several enhancements were made to the timesheet. Employees and managers can select which summaries they want to view. Managers can add a time punch or edit a time punch that crosses midnight, and they can enter a date next to a time punch. The clock-based timesheet was redesigned to more closely match the hourly timesheet. Managers can edit the time on a clock-based timesheet without having to change the time punch.</p><p>Administrators can configure whether dates are used for hourly timesheet entries (Settings > Timesheet Configuration Group > Allow Employees to Select Dates on Time Entry option). This date ensures that employees who cross midnight regularly can accurately record their time. On the timesheet, each newly created row has a date box next to it.</p><p>On the Update Summary Bar page (Settings > Timesheet Configuration Group), administrators can configure the summaries that should appear on the timesheets (for example, paid hours or unpaid hours) so that employees clearly understand how they are paid.</p><p>Time clock managers can now view calculated values on the timesheet to easily check that time inputs and outputs are correct. The Punch Detail button displays details about the time punches.</p><p>On the My Team page, the Team selection was removed. When the selection of a filter is changed, the results are filtered.</p><p>In the UltiPro mobile app, break waivers can be applied on the timesheet.</p><p>Employees can select a summary from the header of the timesheet to view which pay types, and the amount per pay type, contributed to the summary.</p><p>The Consecutive Day rule was enhanced (Settings > Pay Rule Groups). An option was added to restrict days within the work week, and another option was added to select time codes that match.</p><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>The filters selected when viewing the employee list are still respected within the same session when a manager navigates to different pages. When a manager views an employee’s page and navigates forward or backward to another employee’s page, the filters and sorting from the employee list are still respected.</p>
+            <p>When new teams are created, the coverage defaults to Global rather than Team. This does not affect existing teams.</p>
+            <p>Carryover limits can now be set by seniority tier. Administrators can configure the minimum balance at the entitlement tier level. The Minimum Balance section was removed from the Time Off Policy page 3, and the page was renamed Termination. When Add Field is selected on page 2, Minimum Balance is available as a parameter. The carryover configurations were relocated above the entitlement tiers.</p>
+            <p>When an employee requests time off via the UltiPro mobile app, a notification is automatically sent to the employee when the request is approved or rejected. A notification is also sent for time off requests that are auto approved.</p>
+            <p>On the Company Preferences page, administrators can configure the displayed filter items for the My Team page. Available options include: Team, Employee Number, Employee Name, Employee Status, Pay Group, Org Levels, Location, and Job. After the upgrade, four filters are on by default and in this order: Team, Employee Name, Employee Number, and Employee Status. Filtering by jobs now includes secondary jobs as well as primary jobs. The My Team page displays only active employees.</p>
+            <p>If a time off policy for either days or hours is configured with a company time format of Hours &amp; Decimal, balances in the UltiPro mobile app display with decimals. This applies to the dashboard for both the employee and manager, the Balances page, and the balance that appears on the Time Off Request page.</p>
+        </section><section>
+            <title>Scheduling Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>On the template details page for a shift or schedule, the template can now be moved to the next or previous day using the move right icon or move left icon, respectively.</p>
+            <p>On the Team Schedule page, when a schedule includes several of the same shift, the shifts are tiled rather than stacked. A number indicates how many shifts exist (for example, 3x Activity 9-5).</p>
+            <p>The employee list filters configured in Time Off and Allowances can now be used in My Team of the Scheduling feature.</p>
+            <p>Manager approval of shift swaps is now optional per scheduling team. This new option defaults to No and must be enabled (Settings > Scheduling Teams > Edit Scheduling Team > Manager's Approval Required for Shift Swap option). Also, shift swaps display any time off requests.</p>
+        </section><section>
+            <title>Reporting Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>When running a report, a default report layout is defined so information can be returned quickly without defining a layout. The required fields must still be selected.</p>
+            <p>Pay Period date range has been corrected to return information.</p>
+        </section><section>
+            <title>What's Updated in Time Off and Allowances (November 9, 2017)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>If a time off policy carryover date and carryover expiration date are the same date, the available balance for time off requests is now correct.</p>
+            <p>Specific users and second level managers can view and edit time off requests, as expected.</p>
+        </section><section>
+            <title>What's Updated in Reporting (November 9, 2017)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>When Pay Period is selected as the date range for the Workflow Audit Report, the report returns values for the employees, as expected.</p>
+            <p>Grouping is now correctly applied to the Workflow Audit Report when either Status or Workflow Type is selected.</p>
+        </section></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE map PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIMAP//EN" "ultiMap.dtd" [
+]>
+<?Pub Inc?><map><title>Geofencing Help</title><topicref href="WFMGeofencingDivider-c.dita"><topicref href="WFMEnableGeofencing-t.dita"></topicref><topicref href="WFMCreateGeofence-t.dita"></topicref><topicref href="WFMCreateGeofenceGroup-t.dita"></topicref><topicref href="WFMAssignGeofenceEnforcementEE-t.dita"></topicref><topicref href="WFMViewTimePunchActivity-t.dita"></topicref></topicref></map><?Pub *0000002357 0?>

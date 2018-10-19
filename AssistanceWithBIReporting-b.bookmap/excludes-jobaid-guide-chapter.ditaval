@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<val>
+    <!-- Filters out course procedure data. Added to p tag at top of task inside of contenxt -->
+    <prop att="otherprops" val="demonstration" action="exclude"/>
+    <!-- nav path filtering -->
+    <prop att="otherprops" val="learning" action="exclude"/>
+    <!-- omit anything inside of the tutorial info tag -->
+    <prop att="omittutorialinfo" val="true" action="exclude"/>
+    <!-- omit related links -->
+    <prop att="helponly" val="true" action="exclude"/>
+</val>

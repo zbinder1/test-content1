@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55708"><title>Export Files</title><shortdesc>Export all payroll-related files to your Third Party Vendors.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T22:06:56"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <ul><li>General Ledger</li><li>Accounts Payable (A/P) data </li><li>Benefit data</li></ul>
+      </context></taskbody></task>

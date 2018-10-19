@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="z32_gbf_3fb"><title>View Time Punch Activity</title><shortdesc>The Activity page lists all geofence punch activity for a specified date range.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+                                    <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Time</uicontrol><uicontrol>Activity</uicontrol></menucascade></p>
+                        </context><steps><step><cmd>Select the range of activity (day, week, month, or custom).</cmd></step><step><cmd>Depending on the range, select the day, week (current or previous), month, or start and end dates.</cmd></step><step><cmd>Select <uicontrol>List</uicontrol> or <uicontrol>Map</uicontrol> to view the punch activity.</cmd><info>
+                                                            <note type="note">If you select <uicontrol>Show Filters</uicontrol>, you can view the activity by team, employee name, or employee number.</note>
+                                                </info><info>
+                                                            <image href="WFMViewPunchActivity.png"><alt>View Geofence Activity</alt></image>
+                                                </info><info>The map view shows green and red dots. A green dot indicates that the punch is within the employee’s assigned fence. A red dot indicates that the punch is outside the assigned fence or the employee is not assigned to that fence. Select a dot to view punch details, including employee name and number, work date and time, punch type, latitude, and longitude, and any issues.</info></step></steps></taskbody></task>

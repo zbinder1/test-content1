@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55646"><title>Create Batches</title><shortdesc>Create batches copies a snapshot of your employees’ pay records and creates a temporary table for processing payroll. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-02T19:17:37"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <p>All employee maintenance should be completed before this step. Once you create the payroll batch table, any changes made to an employee’s payroll data must be manually updated on the employee’s pay checks. </p>
+         <note type="note">
+            <p>All updates requiring workflow approval or Pending Pay Items must be submitted before the Create Batches step. If workflows with effective dates within this pay period are not approved before creating batches, the workflow request is not be reflected in this payroll in process.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Payroll Processing</uicontrol><uicontrol>Payroll Gateway</uicontrol><uicontrol>select a pay group</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the Payroll Overview page, select Create Batches.</cmd><info>
+               <ul><li>Automatic pay is added to employees' pay for employees configured to be paid automatically.</li><li>Scheduled earnings and deductions are added to employees' pay check for Active employees</li></ul>
+            </info></step><step><cmd>In some payroll models, the Bring In Time step includes both batches and PTO requests taken during this pay period. Once this step is complete, the PTO requests are marked as Processed on the employee's record. </cmd></step></steps></taskbody></task>

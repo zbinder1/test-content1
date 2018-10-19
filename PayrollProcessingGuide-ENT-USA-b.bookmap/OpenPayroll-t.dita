@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i37535"><title>Open Payroll</title><shortdesc>Payroll settings are configured from the Start payroll step. Open your payroll by selecting the Start payroll step. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2015-04-21T14:21:53"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <note type="note">
+            <p>An employee's payroll must be open to void a payment. Only employees with an open payroll are available to select to void a payment.</p>
+         </note>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Payroll Processing</uicontrol><uicontrol>Payroll Gateway</uicontrol><uicontrol>select a pay group</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the Payroll Overview page, select <uicontrol>Start</uicontrol>. The <uicontrol>Start payroll </uicontrol>page appears. </cmd></step><step><cmd>Select the payroll options that apply:</cmd><info>
+               <ul><li>
+                     <uicontrol>Direct deposits are active for this payroll</uicontrol> - Activates direct deposit for your payroll. If this box is unchecked, the payroll does not include any direct deposit payments. </li><li>
+                     <uicontrol>Regular pay is active for this payroll </uicontrol>- Activates regular pay for your employees. If this box is unchecked, regular pay is not automatically included in the payroll and no regular pay checks are created for autopaid employees. </li><li>
+                     <uicontrol>Compensation Management data is processed with this payroll (0 records available)</uicontrol> - Includes salary adjustments submitted through Compensation Management. The number of available records to include in the payroll is provided in the parenthesis.</li><li>
+                     <uicontrol>Pending Pay Items are processed with this payroll (0 records currently available. If pending pay items are submitted before payroll work tables are created this count will change.)</uicontrol> - Includes any submitted <uicontrol>Pending Pay Items.</uicontrol> The number of available records to include in the payroll is provided in the parenthesis. If <uicontrol>Pending Pay Items</uicontrol> are submitted after <uicontrol>Start Payroll</uicontrol>, there may be more Pay Items included in the payroll than reported on the<uicontrol> Start Payroll</uicontrol> page.</li><li>
+                     <uicontrol>Include approved Retroactive Pay with this payroll</uicontrol> - Includes retroactive payments submitted through Retroactive Pay page. Only retroactive payments with an approved status are included in the payroll.</li></ul>
+               <image href="PayStartPayroll_36165.png"><alt>How to start payroll and choose options on start payroll page</alt></image>
+            </info></step><step><cmd>Select the earnings and deductions to include in the payroll.</cmd></step><step><cmd conref="common-cmd.dita#commonCmd/H214424"></cmd></step></steps></taskbody></task>

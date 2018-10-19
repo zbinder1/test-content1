@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="fsj_klb_22b"><title>Create an Administrative Team</title><shortdesc>Administrative teams provide supervisors with access to employees who do not report directly to them. The Administrative Teams page displays an alphabetical list of teams.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Time</uicontrol><uicontrol>Settings</uicontrol><uicontrol>Administrative Teams</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMCreateAdminTeam_56849.png"><alt>Create Administrative Team Page</alt></image>
+                </info></step><step><cmd>Enter the team name.</cmd></step><step><cmd>Select the start and end dates, if applicable. This time frame appears in the Validity Period column on the Administrative Teams page.</cmd></step><step><cmd>Select the team members from the Members field or enter the employee's name, or select <uicontrol>Add All Employees</uicontrol>. You can also use the Name Search field to search for a team or to find an employee. The teams listed were created in UltiPro based on supervisor and employee relationships. Check the <uicontrol>Active as of Today</uicontrol> box to display active employees in the search.</cmd></step><step><cmd>If necessary, you can remove an employee from a team. You are not prompted to confirm the removal.</cmd><info>
+                    <image href="WFMRemoveEEFromAdminTeam_56850.png"><alt>Remove Employee from Administrative Team</alt></image>
+                </info></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

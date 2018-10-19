@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE map PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIMAP//EN" "ultiMap.dtd" [
+]>
+<?Pub Inc?><map><title>Workforce Management Integration Help</title><topicref href="WorkforceManagementIntegrationDivider-c.dita"><topicref href="WFMImportTimeData-t.dita"></topicref><topicref href="wfmTimeImportTypes-c.dita"></topicref><topicref href="WFMScheduleTimeDataImports-t.dita"></topicref><topicref href="ExportTimeForPayrollIntegrated-t.dita"></topicref><topicref href="ExportTimeForPayrollCSV-t.dita"></topicref></topicref></map><?Pub *0000002357 0?>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i37225"><title>Select Employees</title><shortdesc>Employee administrators must select the employees to include in the mass update. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2015-03-25T17:12:31"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="feature" content="Human Resources"/><othermeta name="feature" content="Help"/><othermeta name="helpProductKey3" content="EEADM"/><othermeta name="helpProductPageName1" content="MassUpdateSelection.aspx"/><othermeta name="helpRole2" content="empl-admin"/></metadata></prolog><taskbody><context>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol><uicontrol>select type of mass update</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the <uicontrol>Select Employees</uicontrol> page, select <uicontrol>Add Employees</uicontrol>. The <uicontrol>Add Employees</uicontrol> page appears.</cmd></step><step><cmd>Use the <uicontrol>Find By</uicontrol> field to search for and find the applicable employees.</cmd><info>
+               <p>The Search option finds employees within the currently selected component company. Only those employees that the user is qualified to view are displayed for selection.</p>
+            </info></step><step><cmd>Check the boxes next to the applicable employees from the list or check the box at the top of the Employee Name column to select all employees listed on the page. Additionally, you can <uicontrol>Select All </uicontrol>or <uicontrol>Deselect All,</uicontrol> instead of scrolling through the list.</cmd></step><step><cmd>Select <uicontrol>OK</uicontrol>. The <uicontrol>Select Employees</uicontrol> page displays the selected employees.</cmd><info>
+               <image href="HRAddMassUpdateSelectEmployeesPage_37284.png"><alt>Select employees to apply mass update.</alt></image>
+            </info></step><step><cmd conref="common-cmd.dita#commonCmd/N777594"></cmd><info>
+               <note type="note">
+                  <ul><li>When selected employees are assigned to jobs that use pay scales, additional validations are completed to verify the employee administrator has the appropriate web access rights enabled for the Change Job and Salary work event.</li><li>When selected employees are in different job groups, options may be limited on the Change Job tab of the work event.</li></ul>
+               </note>
+            </info></step></steps></taskbody></task>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="nqc_zkg_b2b"><title>Create Accrual Data Definitions</title><shortdesc>Accrual data definitions are required for time off policies that are based on pay data. A time off policy can give accruals based on payroll data, such as year-to-date hours, lifetime hours, or hours from one pay statement.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Benefits</uicontrol><uicontrol>Time Off</uicontrol><uicontrol>Settings</uicontrol><uicontrol>Accrual Data Definitions</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select <uicontrol>Create</uicontrol>.</cmd><info>
+                    <image href="WFMAccrualDataDefinition.png"><alt>Create Accrual Data Definition Page</alt></image>
+                </info></step><step><cmd>Enter the name (for example, Lifetime Hours) and description.</cmd></step><step><cmd>Select either <uicontrol>Single Value</uicontrol> or <uicontrol>Formula</uicontrol> as the value type and complete the related fields:</cmd><info>
+                    <ul><li>For a single value, select the value from the drop-down list.</li><li>For a formula, select the payroll item and employee field along with the action (for example "+" to add). (Select the "x" next to an item in the formula to remove it.)</li></ul>
+                </info></step><step><cmd>Select the date range that should be used to select payroll data for the single value or formula.</cmd></step><step><cmd>Specify if the data definition is active.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

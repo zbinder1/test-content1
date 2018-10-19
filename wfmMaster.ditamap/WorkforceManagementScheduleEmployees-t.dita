@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="ghq_2xy_f2b"><title>Schedule an Employee</title><shortdesc>Scheduling enables managers to apply shifts to employees.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Scheduling</uicontrol><uicontrol>Team Schedule</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select the schedule team that you want to schedule.</cmd><info>
+                    <image href="WFMTeamSchedulePageSelectSchedule.png"><alt>Select Schedule on Team Schedule Page</alt></image>
+                </info></step><step><cmd>Select <uicontrol>Create Schedule</uicontrol>. When creating a schedule, the Team Schedule page reflects Draft in the top right corner.</cmd></step><step><cmd>Select <uicontrol>Publish</uicontrol> to make a schedule available for view.</cmd><info>To edit a schedule, the schedule must be in draft status.</info></step><step><cmd>Select a shift for an employee and a date.</cmd></step><step><cmd>On the employee detail card pop-up window, make the necessary changes and select <uicontrol>Save</uicontrol>. </cmd><info>
+                    <image href="WFMEEDetailCardAvailTime.png"><alt>Employee Detail Card</alt></image>
+                </info></step><step><cmd>When the shift has been edited, select <uicontrol>Re-Publish</uicontrol> to publish the change to the employee's schedule.</cmd></step><step><cmd>Select <uicontrol>Export</uicontrol> to export the team schedule and print it as a Microsoft Excel file.</cmd></step></steps></taskbody></task>

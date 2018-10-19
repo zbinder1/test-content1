@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="qp2_wzs_f2b"><title>Enable or Disable Scheduling Notifications</title><shortdesc>Employee notification preferences can be enabled or disabled for the Scheduling feature. These notifications include schedule published, schedule reminders, and change request approved or rejected.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Workforce Management</uicontrol><uicontrol>Scheduling</uicontrol><uicontrol>My Team</uicontrol><uicontrol>select employee name</uicontrol></menucascade></p>
+        </context><steps><step><cmd>Select the Preferences tab, and then select <uicontrol>Edit</uicontrol>.</cmd><info>
+                    <image href="WFMScheduleNotification.png"><alt>Employee Preferences Tab in Scheduling</alt></image>
+                </info></step><step><cmd>Select the delivery type for each notification.</cmd></step><step><cmd>If you are configuring the Schedule Reminder notification, select how many days in advance the notification should be sent to the employee's dashboard.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step><step><cmd>Ensure the job is ready to be run (Job Scheduler > Edit Job).</cmd></step></steps></taskbody></task>

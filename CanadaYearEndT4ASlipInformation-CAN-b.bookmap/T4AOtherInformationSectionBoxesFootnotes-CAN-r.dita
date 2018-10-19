@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i53252"><title>T4A Other Information — Section Boxes (Footnotes)</title><shortdesc>Effective with year-end for tax year 2010 and later, UltiPro delivers support for specific footnote codes in the T4A slip.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2016-08-03T14:42:30"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Year-End"/></metadata></prolog><refbody><section>
+         <note type="note">
+            <p>To support additional footnote codes would require overflow functionality that is not currently supported.</p>
+         </note>
+         <p>The references provided below are related to processing year-end data for tax years 2010 and beyond.</p>
+         <table><tgroup cols="3"><colspec colname="col1" colwidth="0.5*" colnum="1"/><colspec colname="col2" colwidth="2.25*" colnum="2"/><colspec colname="col3" colwidth="2.25*" colnum="3"/><thead><row><entry>Footnote Code</entry><entry conref="common-entry.dita#commonEntry/S750469"></entry><entry conref="common-entry.dita#commonEntry/A843431"></entry></row></thead><tbody><row><entry>
+                        <p>014</p>
+                     </entry><entry>
+                        <p>Recipient’s Number – a retiree number, an employee number, or a payroll number. (optional)</p>
+                     </entry><entry>
+                        <p>Not currently supported.</p>
+                     </entry></row><row><entry>
+                        <p>028</p>
+                     </entry><entry>
+                        <p>Other Income – income not reported elsewhere on T4A slip.</p>
+                        <p>
+                           <note type="note">Do not report payments of fees for services under code 028. These payments should be reported in "Box 048 – Fees for services."</note>
+                        </p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply: pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=028</p>
+                     </entry></row><row><entry>
+                        <p>032</p>
+                     </entry><entry>
+                        <p>Registered Pension Plan Contributions (Past Service)</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply: pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=032</p>
+                     </entry></row><row><entry>
+                        <p>034</p>
+                     </entry><entry>
+                        <p>Pension Adjustment</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt and PDedHist.pdhEECurAmt where the following apply: pehTaxCategory or pdhTaxCategory = trcTaxCategory</p>
+                        <p>trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=034</p>
+                     </entry></row><row><entry>
+                        <p>036</p>
+                     </entry><entry>
+                        <p>Plan Registration Number</p>
+                        <p>Seven-digit registration number for a registered pension plan (RPP) or a deferred profit sharing plan (DPSP) (even if only employer contributions). If employee is configured with multiple plans, report registration number of the plan under which the employee has the largest pension adjustment. Only report a registration number when an amount is being reported for a pension adjustment.</p>
+                        <p>If no data is reported for a pension adjustment, no registration number is required.</p>
+                        <p>Enter registration numbers (not more than three) for any additional plans on lines 071, 072, and 073 of the T4A Summary.</p>
+                     </entry><entry>
+                        <p>DedCode.dedDedRegistrationNumber where pdhTaxCategory = trctaxcategroy where trcreportingbox=50 where pdhDedCode = dedDedCode.</p>
+                        <p>OR</p>
+                        <p>EarnCode.ernEarnRegistrationNumber where pehTaxCategory = = trctaxcategroy where trcreportingbox=50 where pehEarnCode = ernEarnCode</p>
+                        <p>OR</p>
+                        <p>If the employee has pension adjustment amounts in history for multiple deduction and/or earnings codes, DedCode.dedDedRegistrationNumber if sum pdhEECurAmt for the pdhDedCode</p>
+                        <p>OR</p>
+                        <p>EarnCode.ernEarnRegistrationNumber if sum pehCurAmt for the pehEarnCode, whichever is the highest.</p>
+                     </entry></row><row><entry>
+                        <p>046</p>
+                     </entry><entry>
+                        <p>Charitable Donations</p>
+                        <p>Enter the amount you deducted from the recipients‟ earnings for donations to registered charities in Canada.</p>
+                     </entry><entry>
+                        <p>Sum PDedHist.pdhEECurAmt where pdhTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=046‟</p>
+                     </entry></row><row><entry>
+                        <p>105</p>
+                     </entry><entry>
+                        <p>Scholarships, Bursaries, Fellowships, Artists‟ Project Grants, and Prizes</p>
+                        <p>For more information, see Income Tax Folio, S1-F2-C3: Scholarships, Research Grants and Other Education Assistance.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=105‟</p>
+                     </entry></row><row><entry>
+                        <p>106</p>
+                     </entry><entry>
+                        <p>Death Benefits</p>
+                        <p>Enter the gross amount of any payment (including a payment to a surviving spouse, common-law partner, heir, or estate) on or after the death of an employee to recognize the employee‟s service in an office or employment.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=`106‟</p>
+                     </entry></row><row><entry>
+                        <p>109</p>
+                     </entry><entry>
+                        <p>Periodic Payments from an Unregistered Pension Plan</p>
+                        <p>Enter pension benefits you paid from a pension fund or plan that is not registered.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=109‟</p>
+                     </entry></row><row><entry>
+                        <p>117</p>
+                     </entry><entry>
+                        <p>Loan Benefits</p>
+                        <p>Enter the benefits of a loan that a person or partnership received as a shareholder or related to a shareholder.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=117‟</p>
+                     </entry></row><row><entry>
+                        <p>118</p>
+                     </entry><entry>
+                        <p>Medical Premium Benefits</p>
+                        <p>Enter the premiums you pay as a contribution to a provincial or territorial health services insurance plan for a former employee. Refer to “Premiums under provincial hospitalization, medical care insurance and certain Government of Canada plans” in Guide T4130, Employers‟ Guide – Taxable Benefits and Allowances.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=118‟</p>
+                     </entry></row><row><entry>
+                        <p>119</p>
+                     </entry><entry>
+                        <p>Premiums Paid to a Group Term Life Insurance Plan</p>
+                        <p>If you provided group term life insurance taxable benefits for former employees or retirees, you must report the benefit in the “Other information” area using code 119, regardless of the amount. The $500 reporting threshold for T4A slips does not apply. If you are the administrator or trustee of a multiemployer plan and you provided taxable benefits under the plan to employees, former employees, or retirees, report this amount in the “Other information” area using code 119 if it is more than $25.</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode=119‟</p>
+                     </entry></row><row><entry>
+                        <p>135</p>
+                     </entry><entry>
+                        <p>Recipient-Paid Premiums for Private Health Services Plans</p>
+                        <p>A recipient can claim, as a qualifying medical expense, premiums the person paid to a private health services plan. The use of code 135 is optional; however, if you do not use this code, we can ask the recipient to provide supporting documents.</p>
+                     </entry><entry>
+                        <p>If sum PDedHist.pdhEECurAmt &lt;&gt;0 where trcReportingCode=135 create a footnote value record = Sum</p>
+                        <p>PDedHist.pdhEECurAmt where pdhTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4A and trcReportingCode=135 and category type=D</p>
+                     </entry></row><row><entry>
+                        <p>146</p>
+                     </entry><entry>
+                        <p>Indian (Exempt Income) – Pension or Superannuation</p>
+                        <p>Pension or superannuation income is usually exempt from tax when a person receives them as a result of employment income that was exempt from tax. If a part of the employment income was exempt, then a similar part of these amounts is also exempt. Report the exempt income using code 146. Do not report this amount in Box 016.</p>
+                     </entry><entry>
+                        <p>If sum PehNativeExemptAmt&gt;0 where PehTaxCategory=TrcTaxCategory and trcFormCode=‟T4A‟ and trcReportingBox=‟016‟, Sum PEarHist.pehNativeExemptAmt where PehTaxCategory= TaxCategoryReporting.TrcTaxCategory and TrcFormCode=‟T4A‟ and TrcReportingBox=„016‟</p>
+                     </entry></row><row><entry>
+                        <p>148</p>
+                     </entry><entry>
+                        <p>Indian (Exempt Income) – Lump-Sum Payments</p>
+                        <p>Lump-sum payment income is usually exempt from tax when a person receives them as a result of employment income that was exempt from tax. If a part of the employment income was exempt, then a similar part of these amounts is also exempt. Report this amount using code 148. Do not report this amount in Box 018.</p>
+                     </entry><entry>
+                        <p>If sum PehNativeExemptAmt&gt;0 where PehTaxCategory=TrcTaxCategory and trcFormCode=‟T4A‟ and trcReportingBox= „018‟, Sum PEarHist.pehNativeExemptAmt where PehTaxCategory= TaxCategoryReporting.TrcTaxCategory and TrcFormCode=‟T4A‟ and TrcReportingBox=„018‟</p>
+                     </entry></row><row><entry>
+                        <p>152</p>
+                     </entry><entry>
+                        <p>SUBP Qualified Under the Income Tax Act</p>
+                        <p>Payments received under a supplementary unemployment benefit plan (SUBP) that do qualify as a SUBP under the Income Tax Act (not including maternity/parental top ups, which are included on a T4 slip).</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt where pehTaxCategory = trcTaxCategory and trcFormCode = „T4A‟ and TaxCategoryReporting.trReportingCode= `152‟</p>
+                     </entry></row></tbody></tgroup></table>
+      </section></refbody></reference>

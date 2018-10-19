@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="vrr_v1m_kfb"><title>Geofencing</title><shortdesc>Geofencing enables employees to record their activity on their mobile devices. Administrators can select either active or passive geofencing enforcement. Administrators create and manage geofences, create geofence groups, and then assign geofence enforcement to employees.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody/></concept>

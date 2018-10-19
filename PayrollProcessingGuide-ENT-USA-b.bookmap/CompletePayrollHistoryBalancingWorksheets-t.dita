@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55706"><title>Complete Payroll History Balancing Worksheets </title><shortdesc>Balance your payroll totals using the balancing worksheets available from the Learning Center.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T22:05:53"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <ul><li>Year-End Payroll History Balancing Worksheet for US</li><li>Year-End Payroll History Balancing Worksheets for Canada</li><li>Payment Services Balancing Worksheet</li></ul>
+         <image href="PayPaymentServicesBalancingWorksheet_55738.png"><alt>Usng the Payment Services Balancing Worksheet</alt></image>
+      </context></taskbody></task>

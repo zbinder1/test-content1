@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="m3w_kmy_1fb"><title>July 12, 2018</title><shortdesc>Here are the July 12 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+        </section><p>When a pay rule group is created or edited (Settings > Pay Rule Groups), a new Premium Overtime rule type is available. This rule detects when premium details overlap with regular ones. Premiums can have start and end times, and they can be merged with or promoted to overtime. Applicable existing rules are updated to create premiums by the start and end times.</p><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+            <p>Holidays, calendars, policy groups, and time off policies now display in the user's preferred language. Other affected pages include the Accrual Data Definition page (Settings > Accrual Data Definition), Accrual Code page, and Eligibility Criteria (Settings > Eligibility Criteria).</p>
+        </section><section>
+            <title>Scheduling Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>Activities have been removed (Settings > Activities), which also affects the Schedule Team page (Use Activities option and Match Employee Shifts By Activities option). Custom labor metrics from the Time feature can be used. Scheduled labor metrics can now be sent to the schedule export CSV file. In addition, labor metrics can be configured to display in color when viewing shifts (Settings > Company Preferences > Labor Metric for Coloring). Previously, the activities of the shift determined the colors. The labor metrics now determine the colors that are displayed. If no labor metric is chosen, a single color is assigned.</p>
+            <p>On the Scheduling page of the New Hire wizard, delivered field names display in the user's preferred language. (Field drop-down lists still display in English.)</p>
+            <p>On the Schedule Team page, if the Use Shift Availability option is selected, then employees can now enter their availability.</p>
+        </section><section>
+            <title>Reporting Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>When the Balances report is exported to Microsoft Excel and the time off policy accrues in days, the report now correctly shows the balance in days instead of hours. This is consistent with the report view and with other reports.</p>
+            <p>A Payroll Based Journal report from the Time feature will be available with the July 26, 2018 update. This report helps to ensure compliance in reporting staffing and census information to the Center for Medicare &amp; Medicaid Services (CMS).</p>
+        </section><section>
+            <title>What's Updated in Time Off and Allowances (July 12, 2018)</title>
+            <p>The following are other noteworthy updates to Workforce Management:</p>
+            <p>The Labor Allocation Import job no longer requires the sum of allocated projects per employee to equal 100 percent.</p>
+            <p>When time off is declined (for example, the employee has an insufficient balance), the time off is no longer saved.</p>
+        </section></conbody></concept>

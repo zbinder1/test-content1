@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i53259"><title>T4 Slip Copies</title><shortdesc>UltiPro generates a T4 slip with a specific naming convention that contains two PDF files.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2016-08-03T14:57:54"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Year-End"/></metadata></prolog><refbody><section>
+         <ul><li>ReportingYearTaxGroupCodeSlipTypeReportingtypeEE.pdf<p>This is the employee copy. It contains one page, which displays a duplicate copy of the T4 slip for one employee.</p></li><li>ReportingYearTaxGroupCodeSlipTypeReportingtypeER.pdf<p>This is the employer copy. It contains one page, which displays a copy of the T4 slip for one employee. The employer uses this copy for record-keeping.</p></li></ul>
+         <table><tgroup cols="6"><colspec colname="col1" colwidth="1.51*" colnum="1"/><colspec colname="col2" colwidth="0.88*" colnum="2"/><colspec colname="col3" colwidth="0.63*" colnum="3"/><colspec colname="col4" colwidth="0.59*" colnum="4"/><colspec colname="col5" colwidth="0.88*" colnum="5"/><colspec colname="col6" colwidth="1.51*" colnum="6"/><thead><row><entry conref="common-entry.dita#commonEntry/F349794"></entry><entry conref="common-entry.dita#commonEntry/P753011"></entry><entry conref="common-entry.dita#commonEntry/G181241"></entry><entry>Slip Type</entry><entry conref="common-entry.dita#commonEntry/E683785"></entry><entry conref="common-entry.dita#commonEntry/E785483"></entry></row></thead><tbody><row><entry>
+                        <p>2017CANA1T4EE</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(none) Original</p>
+                     </entry><entry conref="common-entry.dita#commonEntry/K128365"></entry></row><row><entry>
+                        <p>2017CANA1T4ER</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(none) Original </p>
+                     </entry><entry>
+                        <p>Employer</p>
+                     </entry></row><row><entry>
+                        <p>2017CANA1T4(CNCL)EE</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(CNCL) Cancelled</p>
+                     </entry><entry conref="common-entry.dita#commonEntry/K128365"></entry></row><row><entry>
+                        <p>2017CANA1T4(CNCL)ER</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(CNCL) Cancelled</p>
+                     </entry><entry>
+                        <p>Employer</p>
+                     </entry></row><row><entry>
+                        <p>2017CANA1T4 (AMND)EE</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(AMND) Amended</p>
+                     </entry><entry conref="common-entry.dita#commonEntry/K128365"></entry></row><row><entry>
+                        <p>2017CANA1T4(AMND)ER</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(AMND) Amended</p>
+                     </entry><entry>
+                        <p>Employer</p>
+                     </entry></row><row><entry>
+                        <p>2017CANA1T4(ADDL)EE</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(ADDL) Additional</p>
+                     </entry><entry conref="common-entry.dita#commonEntry/K128365"></entry></row><row><entry>
+                        <p>2017CANA1T4(ADDL)ER</p>
+                     </entry><entry>
+                        <p>2017</p>
+                     </entry><entry>
+                        <p>CANA1</p>
+                     </entry><entry>
+                        <p>T4</p>
+                     </entry><entry>
+                        <p>(ADDL) Additional</p>
+                     </entry><entry>
+                        <p>Employer</p>
+                     </entry></row></tbody></tgroup></table>
+         <note type="note">
+            <p>If filing the T4 slip electronically to the Canada Revenue Agency (CRA), there is no need to submit the T4 summary via paper format.</p>
+            <p>The deadline for filing the T4 and T4A summaries is the last day of February following the taxation year being filed. This date is the deadline for both postmarking the summary and for mailing or distributing copies 2 and 3 of the T4 and/or T4A slips to employees. If the last day of February is a Saturday or Sunday, the slips are due the next business day.</p>
+         </note>
+      </section></refbody></reference>

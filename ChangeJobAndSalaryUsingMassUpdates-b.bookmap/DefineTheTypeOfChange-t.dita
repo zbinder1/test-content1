@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i57111"><title>Define the Type of Change</title><shortdesc>Mass update changes include three options: Change Job, Change Salary, or Change Job and Salary. Change details are entered based on the type selected. </shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-05-25T20:00:49"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Human Resources"/></metadata></prolog><taskbody><context>
+         <p><menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Employee Admin</uicontrol><uicontrol>Mass Updates</uicontrol><uicontrol>Actions</uicontrol><uicontrol>Job and Salary Change</uicontrol></menucascade></p>
+      </context><steps><step><cmd>From the <uicontrol>Define Change Type</uicontrol> page, select the type of mass update: <uicontrol>Change Job,</uicontrol>
+               <uicontrol>Change Salary</uicontrol>, or <uicontrol>Change Job and Salary</uicontrol>. Complete the applicable fields. </cmd><info>
+               <ul><li>Enter an Effective Date <p>The effective date must occur on the same date or later than the most recent job history record for all employees included in the mass update. </p>
+                  </li><li>Select a Change Reason</li><li>Select a Company</li><li>Note: The Operating Country is autopopulated from the Company record in UltiPro</li></ul>
+            </info></step><step><cmd conref="common-cmd.dita#commonCmd/N777594"></cmd></step></steps></taskbody></task>

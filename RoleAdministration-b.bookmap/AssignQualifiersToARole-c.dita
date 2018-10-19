@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="i18045"><title>Assign Qualifiers to a Role</title><shortdesc>Qualifiers are parameters that can be applied to user role assignments to restrict which employees a user can view in UltiPro. While a role determines the pages and actions available to a user, its qualifiers determine the set of employees that are accessible to that user via the role.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2013-06-04T12:48:32"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Security"/></metadata></prolog><conbody><p>Qualifiers are the categorical options, representing standard employee information. Qualifier values are their specific selections available. Although your company’s qualifier values may vary, examples of qualifiers and their associated qualifier values are included in this table.</p><table><tgroup cols="2"><colspec colname="col1" colwidth="0.63*" colnum="1"/><colspec colname="col2" colwidth="1.37*" colnum="2"/><thead><row><entry>Qualifier</entry><entry>Qualifier Values</entry></row></thead><tbody><row><entry>Company</entry><entry>
+                     <ul><li>To The Max Amusement Park</li><li>UEL Corporate Tech</li></ul>
+                  </entry></row><row><entry>Department</entry><entry>
+                     <ul><li>Customer Relations</li><li>Human Resources</li><li>Operations</li><li>Systems Management</li></ul>
+                  </entry></row><row><entry>Division</entry><entry>
+                     <ul><li>Corporate</li><li>Manufacturing</li></ul>
+                  </entry></row><row><entry conref="common-entry.dita#commonEntry/N815479"></entry><entry>
+                     <ul><li>Dallas</li><li>Fort Lauderdale</li><li>Los Angeles</li></ul>
+                  </entry></row><row><entry>Region</entry><entry>
+                     <ul><li>Central</li><li>Northeast</li><li>Northwest</li><li>Southeast</li><li>Southwest</li></ul>
+                  </entry></row></tbody></tgroup></table><p>For example, if you select Region as a qualifier and Central as the qualifier value, the user will have access to information for every employee in the Central region. Therefore, all employees assigned to the Central region will display in the user’s qualified employee list. Employee access is determined by the role used in this qualifier assignment (for example, job information, compensation, or personal information). </p><p>The role types associated with a role determine how you can qualify or limit the employee list. The role type selected determines available qualifiers. All role types allow qualifiers except the Default Approver, Site Management Console Administrator, and User roles. When assigning roles to a user, at least one qualifier selection is required if the role is associated with a role type that allows qualifiers.</p><table><tgroup cols="2"><colspec colname="col1" colwidth="0.56*" colnum="1"/><colspec colname="col2" colwidth="1.44*" colnum="2"/><thead><row><entry>Role Types</entry><entry>Available Qualifiers</entry></row></thead><tbody><row><entry>Benefits Administrator</entry><entry>
+                     <ul><li>Company</li><li>Employee Type</li><li>Employment Status: Full Time/Part Time Hourly/Salaried</li><li>Job Code</li><li>Location</li><li>OE Benefit Group</li><li>OE Session</li><li>Organization Levels (4)</li><li>Pay Group</li><li>Project</li><li>Shift</li><li>Supervisor</li></ul>
+                  </entry></row><row><entry>Employee Administrator<p>or</p>
+                     <p>Manager</p>
+                  </entry><entry>
+                     <ul><li>Company</li><li>Employee Type</li><li>Employment Status: Full Time/Part Time Hourly/Salaried</li><li>Job Code</li><li>Location</li><li>Organization Levels (4)</li><li>Pay Group</li><li>Project</li><li>Shift</li><li>Supervisor</li></ul>
+                  </entry></row><row><entry>Payroll</entry><entry>
+                     <ul><li>Pay Group</li></ul>
+                  </entry></row><row><entry>System Administrator</entry><entry>
+                     <ul><li>Company</li></ul>
+                  </entry></row><row><entry>Workflow Administrator</entry><entry>
+                     <ul><li>Company</li></ul>
+                  </entry></row><row><entry>Default Approver<p>or</p>
+                     <p>Site Management Console Administrator</p>
+                     <p>or</p>
+                     <p>User	</p>
+                  </entry><entry>
+                     <ul><li>None</li></ul>
+                  </entry></row></tbody></tgroup></table><p>When qualifying a role by Supervisor, an additional option of Cascading Supervisor exists. By assigning a Supervisor qualifier and checking the Use Cascading Supervisor box, the user can have access to that supervisor's direct reports and anyone else in his/her reporting hierarchy.</p></conbody></concept>

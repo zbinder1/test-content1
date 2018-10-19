@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE concept PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTICONCEPT//EN" "ultiConcept.dtd" [
+]>
+<concept id="tzh_lh5_32b"><title>June 14, 2018</title><shortdesc>Here are the June 14 features and enhancements for Workforce Management.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><conbody><section>
+            <title>Time Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+        </section><p>The Time feature now has basic translations, which means that all the static, delivered fields are translated. Any data entry fields requiring a name and description display in the language that was entered. Future enhancements will support translating these entries.</p><p>Clock rule groups have been removed. With this monthly update, any existing clock rules must be manually copied to pay rule groups. Contact your implementation consultant for assistance.</p><p>An absence value is available when time off requests are posted to the timesheet. This is more accurate because breaks are excluded. For example, if an employee is scheduled to work 8.5 hours with a 30-minute break, then only 8 hours are posted to the timesheet.</p><section>
+            <title>Time Off and Allowance Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+            <p>The Time Off and Allowances feature now has basic translations, which means that all the static, delivered fields are translated. Any data entry fields requiring a name and description display in the language that was entered. Future enhancements will support translating these entries.</p>
+        </section><section>
+            <title>Scheduling Enhancements</title>
+            <p>An enhancement was made for this release:</p>
+            <p>Two new compliance rules allow for a warning message or error to appear if an employee is assigned to a shift for which they do not have sufficient permissions to the labor metric of the shift. After compliance groups are assigned (Settings > Compliance Groups > Create), they can then be assigned to an employee. Administrators can configure the ability to schedule to a job (Settings > Scheduling Teams > Create). The job can be configured as required when shifts are created or edited. Also, the Team Schedule page has been updated to filter by labor metrics assigned to a shift.</p>
+        </section><section>
+            <title>Reporting Enhancements</title>
+            <p>Several enhancements were made for this release:</p>
+            <p>Additional columns were added to the Transactions and Balances report. These columns include Rate, Liability, Component Company, and other organization level information. Liability for time off is calculated by multiplying an employee's current time off balance by the employee's hourly pay rate stored in UltiPro.</p>
+            <p>Reporting now allows administrators to assign roles. When assigning or editing roles (Settings > Roles), administrators can grant rights to view rates in reporting. The new ADMIN_ROLE permission provides rights to edit or create a role. The new ADMIN_RATES and MANAGER_RATES permissions provide rights to view rates on the Transactions and Balances report.</p>
+            <p>"Day" is now an option for the date range. When a date range is selected for all reports, excluding the Timesheet report, the available options include Custom, Pay Period, Day, Week, Month, Quarter, and Year.</p>
+            <p>Report information is now sorted by groupings in ascending order.</p>
+            <p>The Reporting feature now has basic translations, which means that all the static, delivered fields are translated. Any data entry fields requiring a name and description display in the language that was entered. Future enhancements will support translating these entries.</p>
+        </section></conbody></concept>

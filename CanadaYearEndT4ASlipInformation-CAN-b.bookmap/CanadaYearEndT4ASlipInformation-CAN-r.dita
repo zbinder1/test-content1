@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTIREFERENCE//EN" "ultiReference.dtd" [
+]>
+<reference id="i53251"><title>Canada Year-End T4A Slip Information</title><shortdesc>The Canada T4A slip (Statement of Pension, Retirement, Annuity, and Other Income) usually is issued by the employer, and includes information on specific types of income paid to you during the tax year as well as the amount of income tax deducted.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2016-08-03T14:41:19"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Year-End"/></metadata></prolog><refbody><section>
+         <p>This table illustrates the mapping of data elements with the boxes on the T4A slip for Canada employees and the UltiPro field name (data source). For a complete description of each box on the T4A slip, refer to the Canada Revenue Agency website and related publications:</p>
+         <p>http://www.cra-arc.gc.ca/tx/bsnss/tpcs/pyrll/rtrns/t4a/slps/cmpltng-eng.html</p>
+         <table><tgroup cols="4"><colspec colname="col1" colwidth="0.5*" colnum="1"/><colspec colname="col2" colwidth="1*" colnum="2"/><colspec colname="col3" colwidth="1.5*" colnum="3"/><colspec colname="col4" colwidth="2*" colnum="4"/><thead><row><entry>Box</entry><entry>T4A Slip Label</entry><entry conref="common-entry.dita#commonEntry/S750469"></entry><entry conref="common-entry.dita#commonEntry/A843431"></entry></row></thead><tbody><row><entry/><entry>
+                        <p>Payer's Name</p>
+                     </entry><entry>
+                        <p>Reporting company name and address</p>
+                     </entry><entry>
+                        <p>Company.cmpCompanyName</p>
+                        <p>cmpAddressLine1 + cmpAddressLine2 cmpAddressCity + cmpAddressState + cmpAddressZipCode </p>
+                        <p>cmpAddressCountry</p>
+                     </entry></row><row><entry>
+                        <p>061</p>
+                     </entry><entry>
+                        <p>Payer's account number</p>
+                     </entry><entry>
+                        <p>Enter the 15-character account number used to remit deduction. This number appears in the top left corner of the PD7A statement.</p>
+                     </entry><entry>
+                        <p>Company.CmpCANBIN for tax group reporting company + RP + ERAcctRefNo.ArnARNCode where PrgARNID=AnoARNID</p>
+                        <p>
+                           <note type="note">Not printed on employee copies.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>012</p>
+                     </entry><entry>
+                        <p>Social Insurance Number</p>
+                     </entry><entry>
+                        <p>Employee Social Insurance Number (SIN)</p>
+                     </entry><entry>
+                        <p>EmpIntl.EinNationalID</p>
+                     </entry></row><row><entry>
+                        <p>013</p>
+                     </entry><entry>
+                        <p>Recipient's Account Number (15 characters)</p>
+                     </entry><entry>
+                        <p>If the recipient of the reported amount is a business (sole proprietor, partnership, or corporation), enter the recipient's account number.</p>
+                     </entry><entry>
+                        <p>Not currently supported.</p>
+                     </entry></row><row><entry/><entry>
+                        <p>Recipient's name and address</p>
+                     </entry><entry/><entry>
+                        <p>EmpPers.eepNameLast + eepNameFirst + truncate </p>
+                        <p>eepNameMiddle to initial eepAddressLine1 eepAddressLine2</p>
+                        <p>eepAddressCity + eepAddressState + eepAddressZipCode </p>
+                        <p>eepAddressCountry</p>
+                     </entry></row><row><entry>
+                        <p>016</p>
+                     </entry><entry>
+                        <p>Pension or Superannuation</p>
+                     </entry><entry>
+                        <p>Pension or superannuation</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory</p>
+                        <ul><li>trcFormCode = T4A</li><li>trcFormBox = 016</li></ul>
+                     </entry></row><row><entry>
+                        <p>018</p>
+                     </entry><entry>
+                        <p>Lump-Sum Payments</p>
+                     </entry><entry>
+                        <p>Lump-sum payments</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory</p>
+                        <ul><li>trcFormCode = T4A</li><li>trcFormBox = 018</li></ul>
+                     </entry></row><row><entry>
+                        <p>020</p>
+                     </entry><entry>
+                        <p>Self-Employed Commissions</p>
+                     </entry><entry>
+                        <p>Self-employed commissions</p>
+                     </entry><entry>
+                        <p>Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and trcFormCode = T4A</p>
+                        <ul><li>trcFormCode = T4A</li><li>trcFormBox = 020</li></ul>
+                     </entry></row><row><entry>
+                        <p>022</p>
+                     </entry><entry>
+                        <p>Income Tax Deducted</p>
+                     </entry><entry>
+                        <p>Income tax deducted</p>
+                     </entry><entry>
+                        <p>Sum PTaxHist.pthCurTaxAmt where PTaxHist.pthTaxCode = CNFIT and xxPIT except QCPIT and where PTaxHist.pthIsResident=N</p>
+                        <p>
+                           <note type="note">Multiple XXPITs cannot be reported on the same form.</note>
+                        </p>
+                     </entry></row><row><entry>
+                        <p>024</p>
+                     </entry><entry>
+                        <p>Annuities</p>
+                     </entry><entry/><entry>
+                        <p>Not currently supported.</p>
+                     </entry></row><row><entry>
+                        <p>048</p>
+                     </entry><entry>
+                        <p>Fees for Services</p>
+                     </entry><entry/><entry>
+                        <p>Supported effective year-end 2011. Sum PEarHist.pehCurAmt MINUS PEarHist.pehNativeExemptAmt where pehTaxCategory = TaxCategoryReporting.trcTaxCategory and</p>
+                        <ul><li>trcFormCode = T4A</li><li>trcFormBox = 048</li></ul>
+                     </entry></row></tbody></tgroup></table>
+      </section></refbody></reference>

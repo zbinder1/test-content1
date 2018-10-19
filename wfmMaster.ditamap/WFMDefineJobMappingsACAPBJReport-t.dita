@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="xtr_nn5_w2b"><title>Define ACA Payroll Based Journal Job Mappings</title><shortdesc>Your organization’s current job titles must be mapped to the predefined Centers for Medicare and Medicaid Services (CMS) codes. These codes are included in the ACA Payroll Based Journal analytics type (Reporting > Analytics) to comply with ACA Section 6106.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+                                    <note type="important">An employee's pay type is based on the employee's hourly or salary status (hourly = non-exempt and salary = exempt). To override these values to contract, exempt, or non-exempt, you will need to make the changes in the Time Off and Allowances feature (My Team > select employee > Assignments tab > ACA Pay Type section).</note>
+                        </context><context>
+                                    <p><menucascade><uicontrol>Settings</uicontrol><uicontrol>ACA PBJ Job Mappings</uicontrol></menucascade></p>
+                                    <p>The Job Code Mappings section lists all the current ACA Payroll Based Journal Report jobs and unmapped job codes. As you map the applicable jobs to job code values, the list decreases accordingly. The purpose of the unmapped job code is to select those jobs in your organization that will not be used for Affordable Care Act reporting.</p>
+                                    <p>The ACA PBJ Job Titles column lists the CMS job titles used for mapping.</p>
+                        </context><steps><step><cmd>Select the icon in the Actions column next to each applicable job title.</cmd><info>
+                                                            <image href="WFMACAPBJMapJobCode.png"><alt>ACA PBJ Map Job Codes</alt></image>
+                                                </info></step><step><cmd>Select the applicable job codes in the box on the left and move them to the box on the right using the right arrow.</cmd></step><step><cmd>Select <uicontrol>Done</uicontrol>.</cmd></step><step><cmd>When you have finished mapping the job titles, select <uicontrol>Save</uicontrol> on the ACA PBJ Job Mappings page.</cmd></step></steps></taskbody></task>

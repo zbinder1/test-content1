@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="zb3_ctg_b2b"><title>Enable or Disable Time Off and Allowances Notifications</title><shortdesc>Employee notification preferences can be enabled or disabled for the Time Off and Allowances feature. These notifications include time off request approvals, rejections, and cancellations.</shortdesc><prolog><source>Astoria</source><metadata><audience type="MM"/><audience type="ENT"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/></prodinfo><othermeta name="language" content=""/><othermeta name="locale" content=""/><othermeta name="feature" content=""/></metadata></prolog><taskbody><context>
+                                                            <p><menucascade><uicontrol>My Team</uicontrol><uicontrol>Time Off</uicontrol><uicontrol>My Team</uicontrol></menucascade></p>
+                                        </context><steps><step><cmd>Select an employee name.</cmd></step><step><cmd>Select the Employee Preferences tab.</cmd></step><step><cmd>Select <uicontrol>Edit Notification Preferences</uicontrol>.</cmd><info>
+                                                                                                    <image href="WFMNotificationPreferencesPage.png"><alt>Notification Preferences Page in Time Off and Allowances</alt></image>
+                                                                                </info></step><step><cmd>Select the delivery type for each listed employee notification. Available delivery types include Email, In Application, and both In Application and Email.</cmd></step><step><cmd>Select <uicontrol>Save</uicontrol>.</cmd></step></steps></taskbody></task>

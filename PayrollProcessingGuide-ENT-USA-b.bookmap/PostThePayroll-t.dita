@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//ULTIMATE SOFTWARE//DTD DITA ULTITASK//EN" "ultiTask.dtd" [
+]>
+<task id="i55697"><title>Post the Payroll </title><shortdesc>The Finish step posts the pay data from the temporary batch tables to the employee check history.</shortdesc><prolog><source>AuthorIT</source><critdates><created date="2017-02-07T21:28:31"/></critdates><metadata><audience type="ENT"/><audience type="MM"/><prodinfo><prodname/><vrmlist><vrm version=""/></vrmlist><component/><platform>Portal</platform></prodinfo><othermeta name="language" content="en-us"/><othermeta name="locale" content="USA"/><othermeta name="locale" content="CAN"/><othermeta name="feature" content="Payroll Processing"/></metadata></prolog><taskbody><context>
+         <p>NAVIGATION: <menucascade><uicontrol>Menu</uicontrol><uicontrol>Administration</uicontrol><uicontrol>Payroll Processing</uicontrol><uicontrol>Payroll Gateway</uicontrol><uicontrol>select a pay group</uicontrol></menucascade>
+         </p>
+      </context><steps><step><cmd>From the Payroll Overview page, select Finish payroll. The payroll information from the temporary batch tables is posted to the employee check history. </cmd></step><step><cmd>Review the reports generated when the payroll is posted.</cmd></step></steps></taskbody></task>
